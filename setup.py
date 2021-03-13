@@ -11,7 +11,7 @@ setup(
     # Needed for dependencies
     #install_requires=['numpy'],
     # *strongly* suggested for sharing
-    version='1.1.1',
+    version='2.5.1',
     # The license can be anything you like
     license='AGPL',
     description='Lightweight Python module for coloured strings in the terminal',
