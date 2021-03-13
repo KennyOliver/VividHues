@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     # Needed to silence warnings (and to be a worthwhile package)
-    name='vivid-hues',
+    name='vividHues',
     url='https://github.com/KennyOliver/vivid-hues',
     author='Kenneth Oliver',
     author_email='kenny_oliver@icloud.com',
