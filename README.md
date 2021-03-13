@@ -7,7 +7,31 @@
 
 [![repl](https://repl.it/badge/github/KennyOliver/vividHues)](https://repl.it/@KennyOliver/vividHues)
 
-Module which allows you to add some colour to the Python terminal
+Module which allows you to add some colour to the Python console
+
+<details><summary>Available colours:</summary>
+
+* BLACK
+* RED
+* GREEN
+* ORANGE
+* BLUE
+* PURPLE
+* CYAN
+* WHITE
+* LIME
+* YELLOW
+* PINK
+* UNDERLINE
+* BOLD
+* RESET
+
+</details>
+
+## How to use:
+```python
+print(Clr.RED + Hello world! + Clr.RESET)
+```
 
 ---
 Kenny Oliver ©2021
