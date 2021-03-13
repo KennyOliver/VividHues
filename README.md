@@ -30,7 +30,8 @@ Module which allows you to add some colour to the Python console
 
 ## How to use:
 ```python
-print(Clr.RED + Hello world! + Clr.RESET)
+print(Clr.COLOUR + Hello world! + Clr.RESET)
+name = input(Clr.COLOUR + "Prompt" + Clr.RESET) #don't use commas, use plusses!
 ```
 
 ---
