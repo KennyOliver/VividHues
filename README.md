@@ -7,7 +7,7 @@
 
 [![repl](https://repl.it/badge/github/KennyOliver/vividHues)](https://repl.it/@KennyOliver/vividHues)
 
-Module which allows you to add some colour to the Python console
+Lightweight Python module for coloured strings in the Python console
 
 <details><summary>Available colours:</summary>
 
