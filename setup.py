@@ -14,7 +14,7 @@ setup(
     version='2.5.1',
     # The license can be anything you like
     license='AGPL',
-    description='Lightweight Python module for coloured strings in the terminal',
+    description='Lightweight Python module for coloured strings in the Python console',
     # We will also need a readme eventually (there will be a warning)
     # long_description=open('README.txt').read(),
 )
