@@ -11,5 +11,6 @@ class Clr:
   CYAN = "\033[36m"
   WHITE = "\033[37m"
   UNDERLINE = "\033[4m"
+  BOLD = "\033[01m"
   RESET = "\033[0m"
   
