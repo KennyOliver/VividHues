@@ -12,8 +12,4 @@ class Clr:
   WHITE = "\033[37m"
   UNDERLINE = "\033[4m"
   RESET = "\033[0m"
-
-def intro():
-  print(Clr.RED, "Hi there!", Clr.RESET)
-  print(Clr.UNDERLINE, "How are you?", Clr.RESET)
-  print(Clr.CYAN, "Python", Clr.YELLOW, "is great!", Clr.RESET)
+  
