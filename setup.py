@@ -7,7 +7,7 @@ setup(
     author='Kenneth Oliver',
     author_email='kenny_oliver@icloud.com',
     # Needed to actually package something
-    packages=['vivid-hues'],
+    packages=['vividHues'],
     # Needed for dependencies
     #install_requires=['numpy'],
     # *strongly* suggested for sharing
