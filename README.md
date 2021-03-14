@@ -10,18 +10,18 @@
 VividHues is a lightweight Python package for coloured strings in the Python console!
 
 
-## Installation:
+## :package: Installation & Update:
 ```bash
 pip install git+https://github.com/KennyOliver/VividHues.git#VividHues
 ```
 
-## How to use VividHues:
+## :toolbox: How to use VividHues:
 ```python
 print(Clr.COLOUR + "I love VividHues!" + Clr.RESET)
 name = input(Clr.COLOUR + "What's your name?\n\t--> " + Clr.RESET) #use plusses, not commas!
 ```
 
-<details><summary>Available colours:</summary>
+<details><summary>:rainbow: Available colours:</summary>
 
 * RED
 * ORANGE
