@@ -23,17 +23,17 @@ name = input(Clr.COLOUR + "I love VividHues!" + Clr.RESET) #don't use commas, us
 
 <details><summary>Available colours:</summary>
 
-* BLACK
 * RED
-* GREEN
 * ORANGE
-* BLUE
-* PURPLE
-* CYAN
-* WHITE
-* LIME
 * YELLOW
+* LIME
+* GREEN
+* BLUE
+* CYAN
+* PURPLE
 * PINK
+* BLACK
+* WHITE
 * UNDERLINE
 * BOLD
 * RESET
