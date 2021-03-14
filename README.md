@@ -1,4 +1,4 @@
-# vividHues :rainbow:
+# VividHues :rainbow:
 
 ![CodeFactor](https://www.codefactor.io/repository/github/KennyOliver/vividHues/badge?style=for-the-badge)
 ![Latest SemVer](https://img.shields.io/github/v/tag/KennyOliver/vividHues?label=version&sort=semver&style=for-the-badge)
@@ -7,7 +7,7 @@
 
 [![repl](https://repl.it/badge/github/KennyOliver/vividHues)](https://repl.it/@KennyOliver/vividHues)
 
-Lightweight Python module for coloured strings in the Python console
+VividHues is a lightweight Python module for coloured strings in the Python console!
 
 <details><summary>Available colours:</summary>
 
@@ -28,7 +28,7 @@ Lightweight Python module for coloured strings in the Python console
 
 </details>
 
-## How to use:
+## How to use VividHues:
 ```python
 print(Clr.COLOUR + Hello world! + Clr.RESET)
 name = input(Clr.COLOUR + "Prompt" + Clr.RESET) #don't use commas, use plusses!
