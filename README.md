@@ -17,7 +17,7 @@ pip install git+https://github.com/KennyOliver/VividHues.git#VividHues
 
 ## How to use VividHues:
 ```python
-print(Clr.COLOUR + Hello world! + Clr.RESET)
+print(Clr.COLOUR + "Hello world!" + Clr.RESET)
 name = input(Clr.COLOUR + "I love VividHues!" + Clr.RESET) #don't use commas, use plusses!
 ```
 
