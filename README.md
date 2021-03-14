@@ -31,7 +31,7 @@ VividHues is a lightweight Python module for coloured strings in the Python cons
 ## How to use VividHues:
 ```python
 print(Clr.COLOUR + Hello world! + Clr.RESET)
-name = input(Clr.COLOUR + "Prompt" + Clr.RESET) #don't use commas, use plusses!
+name = input(Clr.COLOUR + "I love VividHues!" + Clr.RESET) #don't use commas, use plusses!
 ```
 
 ---
