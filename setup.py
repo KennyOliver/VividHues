@@ -11,10 +11,10 @@ setup(
     # Needed for dependencies
     #install_requires=['numpy'],
     # *strongly* suggested for sharing
-    version='2.6.1',
+    version='2.6.2',
     # The license can be anything you like
     license='AGPL',
-    description='VividHues is a lightweight Python module for coloured strings in the Python console!',
+    description='VividHues is a lightweight Python package for coloured strings in the Python console!',
     # We will also need a readme eventually (there will be a warning)
     # long_description=open('README.txt').read(),
 )
