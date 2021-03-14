@@ -9,6 +9,18 @@
 
 VividHues is a lightweight Python module for coloured strings in the Python console!
 
+
+## Installation:
+```bash
+pip install git+https://github.com/KennyOliver/VividHues.git#VividHues
+```
+
+## How to use VividHues:
+```python
+print(Clr.COLOUR + Hello world! + Clr.RESET)
+name = input(Clr.COLOUR + "I love VividHues!" + Clr.RESET) #don't use commas, use plusses!
+```
+
 <details><summary>Available colours:</summary>
 
 * BLACK
@@ -27,12 +39,6 @@ VividHues is a lightweight Python module for coloured strings in the Python cons
 * RESET
 
 </details>
-
-## How to use VividHues:
-```python
-print(Clr.COLOUR + Hello world! + Clr.RESET)
-name = input(Clr.COLOUR + "I love VividHues!" + Clr.RESET) #don't use commas, use plusses!
-```
 
 ---
 Kenny Oliver ©2021
