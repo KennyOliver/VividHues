@@ -18,7 +18,8 @@ pip install git+https://github.com/KennyOliver/VividHues.git#VividHues
 ## :toolbox: How to use VividHues:
 ```python
 print(Clr.COLOUR + "I love VividHues!" + Clr.RESET)
-name = input(Clr.COLOUR + "What's your name?\n\t--> " + Clr.RESET) #use plusses, not commas!
+name = input(Clr.COLOUR + "What's your name?\n\t--> " + Clr.RESET)
+# For input() use plusses, not commas!
 ```
 
 <details><summary>:rainbow: Available colours:</summary>
