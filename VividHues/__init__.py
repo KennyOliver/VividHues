@@ -1,6 +1,8 @@
 import os
 os.system("") #allows colours to be displayed in the console
 
+print("\033[93m" + "Installing VividHues..." + "\033[0m")
+
 class Clr:
   BLACK = "\033[30m"
   RED = "\033[31m"
@@ -16,3 +18,5 @@ class Clr:
   UNDERLINE = "\033[4m"
   BOLD = "\033[01m"
   RESET = "\033[0m"
+
+print("\033[32m" + "\033[1m" + "Success!!! Have colourful fun! ;D" + "\033[0m")
