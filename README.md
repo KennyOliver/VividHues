@@ -26,8 +26,12 @@ from VividHues import Clr
 
 ## :toolbox: How to use VividHues:
 ```python
-print(Clr.COLOUR + "I love VividHues!" + Clr.RESET)
-name = input(Clr.COLOUR + "What's your name?\n\t--> " + Clr.RESET)
+# Recommended Method
+print(f"{Clr.Bold + Clr.UNDERLINE + Clr.GREEN}I love VividHues!{Clr.RESET}")
+
+# Alternatives
+print(Clr.RED + "I love VividHues!" + Clr.RESET)
+name = input(Clr.CYAN + "What's your name?\n\t--> " + Clr.RESET)
 # For input() use plusses, not commas!
 ```
 
