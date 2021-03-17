@@ -11,12 +11,14 @@ VividHues is a lightweight Python package for coloured strings in the Python con
 
 
 ## :package: Installation & Update:
+### Step 1
 ![Bash](https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ```bash
 # Use this in a Bash file - e.g. '.replit'
 pip install git+https://github.com/KennyOliver/VividHues.git#VividHues
 ```
 
+### Step 2
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ```python
 from VividHues import Clr
