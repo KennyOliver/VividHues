@@ -7,7 +7,7 @@
 
 <!-- [![repl](https://repl.it/badge/github/KennyOliver/vividHues)](https://repl.it/@KennyOliver/vividHues) -->
 
-VividHues is a lightweight Python package for coloured strings in the Python console!
+**VividHues is a lightweight Python package for coloured strings in the Python console!**
 
 
 ## :package: Installation & Update:
