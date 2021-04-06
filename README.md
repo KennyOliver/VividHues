@@ -10,7 +10,7 @@
 **VividHues is a lightweight Python package for coloured strings in the Python console!**
 
 
-## :package: Installation & Update:
+## :package: Installation & Update
 ### Step 1
 ![Bash](https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ```bash
@@ -32,10 +32,10 @@ run = "pip install git+https://github.com/KennyOliver/VividHues.git#VividHues; p
 from VividHues import Clr
 ```
 
-## :toolbox: How to use VividHues:
+## :toolbox: How to use VividHues
 ```python
 # Recommended Method
-print(f"{Clr.Bold + Clr.UNDERLINE + Clr.GREEN}I love VividHues!{Clr.RESET}")
+print(f"{Clr.BOLD + Clr.UNDERLINE + Clr.GREEN}I love VividHues!{Clr.RESET}")
 any_string = f"{Clr.BOLD + Clr.CYAN}Hello {Clr.GREEN}earthlings!{Clr.RESET}"
 
 
@@ -47,8 +47,7 @@ name = input(Clr.CYAN + "What's your name?\n\t--> " + Clr.RESET)
 
 <details><summary>:rainbow: Available colours:</summary>
 
-_**COLOURS**_
-
+#### _COLOURS_
 * RED
 * ORANGE
 * YELLOW
@@ -61,8 +60,7 @@ _**COLOURS**_
 * BLACK
 * WHITE
 
-_**FORMATTING**_
-
+#### _FORMATTING_
 * UNDERLINE
 * BOLD
 * RESET
