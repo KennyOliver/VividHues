@@ -36,6 +36,8 @@ from VividHues import Clr
 ```python
 # Recommended Method
 print(f"{Clr.Bold + Clr.UNDERLINE + Clr.GREEN}I love VividHues!{Clr.RESET}")
+any_string = f"{Clr.BOLD + Clr.CYAN}Hello {Clr.GREEN}earthlings!{Clr.RESET}"
+
 
 # Alternatives
 print(Clr.RED + "I love VividHues!" + Clr.RESET)
@@ -44,6 +46,8 @@ name = input(Clr.CYAN + "What's your name?\n\t--> " + Clr.RESET)
 ```
 
 <details><summary>:rainbow: Available colours:</summary>
+
+_**COLOURS**_
 
 * RED
 * ORANGE
@@ -56,6 +60,8 @@ name = input(Clr.CYAN + "What's your name?\n\t--> " + Clr.RESET)
 * PINK
 * BLACK
 * WHITE
+
+_**FORMATTING**_
 
 * UNDERLINE
 * BOLD
