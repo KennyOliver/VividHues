@@ -18,6 +18,14 @@
 pip install git+https://github.com/KennyOliver/VividHues.git#VividHues
 ```
 
+#### Tip for Replit
+Create a _**".replit"**_ file,
+insert the following code within it
+```bash
+language = "python3"
+run = "pip install git+https://github.com/KennyOliver/VividHues.git#VividHues; python main.py"
+```
+
 ### Step 2
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ```python
@@ -48,6 +56,7 @@ name = input(Clr.CYAN + "What's your name?\n\t--> " + Clr.RESET)
 * PINK
 * BLACK
 * WHITE
+
 * UNDERLINE
 * BOLD
 * RESET
