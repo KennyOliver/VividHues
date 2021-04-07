@@ -18,7 +18,9 @@
 pip install git+https://github.com/KennyOliver/VividHues.git#VividHues
 ```
 
-#### Tip for Replit
+#### Tip for [Replit](https://replit.com)
+![replit](https://img.shields.io/badge/repl%2Eit-667881?style=for-the-badge&logo=repl%2Eit&logoColor=white)
+
 Create a _**".replit"**_ file,
 insert the following code within it
 ```bash
