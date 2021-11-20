@@ -1,5 +1,7 @@
 # VividHues :rainbow: :paintbrush: :package:
 
+[![Publish VividHues to PyPI & TestPyPI](https://github.com/KennyOliver/VividHues/actions/workflows/publish_to_test_pypi.yml/badge.svg)](https://github.com/KennyOliver/VividHues/actions/workflows/publish_to_test_pypi.yml)
+
 ![CodeFactor](https://www.codefactor.io/repository/github/KennyOliver/vividHues/badge?style=for-the-badge)
 ![Latest SemVer](https://img.shields.io/github/v/tag/KennyOliver/vividHues?label=version&sort=semver&style=for-the-badge)
 ![Repo Size](https://img.shields.io/github/repo-size/KennyOliver/vividHues?style=for-the-badge)
