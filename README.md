@@ -8,28 +8,9 @@
 <!-- [![repl](https://repl.it/badge/github/KennyOliver/vividHues)](https://repl.it/@KennyOliver/vividHues) -->
 
 **VividHues is a lightweight Python package for coloured strings in the Python console!**
+Check it out on PyPi
 
-
-## :package: Replit Installation & Update
-### Step 1
-![Bash](https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
-```bash
-# Use this in a Bash file - e.g. '.replit'
-pip install git+https://github.com/KennyOliver/VividHues.git#VividHues
-```
-
-#### Tip for [Replit](https://replit.com)
-![replit](https://img.shields.io/badge/repl%2Eit-667881?style=for-the-badge&logo=repl%2Eit&logoColor=white)
-
-Create a _**".replit"**_ file,
-insert the following code within it
-```bash
-language = "python3"
-run = "pip install git+https://github.com/KennyOliver/VividHues.git#VividHues; python main.py"
-```
-
-### Step 2
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+## Official Installation
 ```python
 from VividHues import Clr
 ```
