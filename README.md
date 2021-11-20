@@ -1,4 +1,4 @@
-# VividHues :rainbow: :package:
+# VividHues :rainbow: :paintbrush: :package:
 
 ![CodeFactor](https://www.codefactor.io/repository/github/KennyOliver/vividHues/badge?style=for-the-badge)
 ![Latest SemVer](https://img.shields.io/github/v/tag/KennyOliver/vividHues?label=version&sort=semver&style=for-the-badge)
