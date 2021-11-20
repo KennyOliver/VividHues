@@ -16,10 +16,10 @@ jobs:
         python -m
         pip install
         build
-        --user
+        --user --verbose
     - name: Build a binary wheel and a source tarball
       run: >-
-        python -m
+        python -m --verbose
         build
         --sdist
         --wheel
