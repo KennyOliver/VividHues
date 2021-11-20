@@ -10,7 +10,7 @@
 **VividHues is a lightweight Python package for coloured strings in the Python console!**
 
 
-## :package: Installation & Update
+## :package: Replit Installation & Update
 ### Step 1
 ![Bash](https://img.shields.io/badge/GNU%20Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 ```bash
