@@ -36,8 +36,7 @@ print(any_string)
 
 # Alternatives
 name = input(Clr.PINK + "What's your name?\n\t--> " + Clr.RESET + Clr.UNDERLINE)
-msg = Clr.RESET + Clr.BOLD + "Hello,", Clr.RED + Clr.UNDERLINE + name + Clr.RESET
-print(msg)
+print(Clr.RESET + Clr.BOLD + "Hello,", Clr.RED + Clr.UNDERLINE + name)
 ```
 
 <details><summary>:rainbow: Available colours:</summary>
