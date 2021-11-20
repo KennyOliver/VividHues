@@ -16,6 +16,9 @@ from VividHues import Clr
 ```
 
 ## :toolbox: How to use VividHues
+
+<img src="vividhues-demo.png" align="right" />
+
 ```python
 # Recommended Method
 print(f"{Clr.BOLD + Clr.UNDERLINE + Clr.GREEN}I love VividHues!{Clr.RESET}")
