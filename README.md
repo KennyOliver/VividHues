@@ -18,20 +18,23 @@
 from VividHues import Clr
 ```
 
-## :toolbox: How to use VividHues
+## :toolbox: Example
 
 <img src="vividhues-demo.png" align="right" />
 
 ```python
-# Recommended Method
-print(f"{Clr.BOLD + Clr.UNDERLINE + Clr.GREEN}I love VividHues!{Clr.RESET}")
+from VividHues import Clr
+
+
+# f-strings Recommended Method
+print(f"{Clr.BOLD + Clr.UNDERLINE + Clr.LIME}I love VividHues!{Clr.RESET}")
 any_string = f"{Clr.BOLD + Clr.CYAN}Hello {Clr.GREEN}earthlings!{Clr.RESET}"
+print(any_string)
 
 
 # Alternatives
-print(Clr.RED + "I love VividHues!" + Clr.RESET)
-name = input(Clr.CYAN + "What's your name?\n\t--> " + Clr.RESET)
-# For input() use plusses, not commas!
+name = input(Clr.PINK + "What's your name?\n\t--> " + Clr.RESET + Clr.UNDERLINE)
+print(Clr.RESET + Clr.BOLD + "Hello,", Clr.RED + Clr.UNDERLINE + name + Clr.RESET)
 ```
 
 <details><summary>:rainbow: Available colours:</summary>
