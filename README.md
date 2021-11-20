@@ -13,10 +13,12 @@
 
 <a href="https://pypi.org/project/VividHues/"><img src="https://img.shields.io/badge/PyPi-3775A9?style=for-the-badge&logo=pypi&logoColor=white" /></a>
 
-## Official Installation
-```python
-from VividHues import Clr
+## :hammer_and_wrench: Official Installation
+Use this command to install VividHues.
+```bash
+pip install vividhues
 ```
+Or, alternatively, add it as a dependency.
 
 ## :toolbox: Python Example
 
