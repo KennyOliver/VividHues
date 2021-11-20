@@ -18,7 +18,7 @@
 from VividHues import Clr
 ```
 
-## :toolbox: Example
+## :toolbox: Python Example
 
 <img src="vividhues-demo.jpg" align="right" />
 
