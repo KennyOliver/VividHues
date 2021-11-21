@@ -1,4 +1,4 @@
-name: Publish VividHues to PyPI and TestPyPI
+name: VividHues
 
 on: push
 jobs:
