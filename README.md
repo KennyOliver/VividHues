@@ -16,9 +16,23 @@
 ## :hammer_and_wrench: Official Installation
 Use this command to install VividHues.
 ```bash
-pip install vividhues
+pip install VividHues
 ```
-Or, alternatively, add it as a dependency.
+
+### :bricks: Dependency
+_requirements.txt_
+```VividHues>=2.7.9```
+
+_Dependabot.yml_
+```yaml
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "daily"
+```
+
 
 ## :toolbox: Python Example
 
