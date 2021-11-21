@@ -39,27 +39,21 @@ name = input(Clr.PINK + "What's your name?\n\t--> " + Clr.RESET + Clr.UNDERLINE)
 print(Clr.RESET + Clr.BOLD + "Hello,", Clr.RED + Clr.UNDERLINE + name)
 ```
 
-<details><summary>:rainbow: Available colours:</summary>
+## :rainbow: Available colours:
 
-#### _COLOURS_
-* RED
-* ORANGE
-* YELLOW
-* LIME
-* GREEN
-* BLUE
-* CYAN
-* PURPLE
-* PINK
-* BLACK
-* WHITE
-
-#### _FORMATTING_
-* UNDERLINE
-* BOLD
-* RESET
-
-</details>
+| Colour Codes | Formatting Codes |
+| :----------: | :--------------: |
+| Clr.RED      | Clr.UNDERLINE    |
+| Clr.ORANGE   | Clr.BOLD         |
+| Clr.YELLOW   | Clr.RESET        |
+| Clr.LIME     |                  |
+| Clr.GREEN    |                  |
+| Clr.BLUE     |                  |
+| Clr.CYAN     |                  |
+| Clr.PURPLE   |                  |
+| Clr.PINK     |                  |
+| Clr.BLACK    |                  |
+| Clr.WHITE    |                  |
 
 ---
 Kenny Oliver ©2021
