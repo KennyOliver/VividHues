@@ -1,6 +1,7 @@
 import os
 os.system("")  # allows colours to be displayed in the console
 
+
 class Clr:
     BLACK = "\033[30m"
     RED = "\033[31m"
@@ -13,6 +14,10 @@ class Clr:
     LIME = "\033[92m"
     YELLOW = "\033[93m"
     PINK = "\033[95m"
+    
     UNDERLINE = "\033[4m"
+    UL = UNDERLINE
     BOLD = "\033[01m"
+    BL = BOLD
     RESET = "\033[0m"
+    RS = RESET
