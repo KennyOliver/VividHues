@@ -42,15 +42,15 @@ updates:
 from VividHues import Clr
 
 
-# f-strings Recommended Method
-print(f"{Clr.BOLD + Clr.UNDERLINE + Clr.LIME}I love VividHues!{Clr.RESET}")
-any_string = f"{Clr.BOLD + Clr.CYAN}Hello {Clr.GREEN}earthlings!{Clr.RESET}"
+# f-strings - recommended
+print(f"{Clr.BO + Clr.UNDERLINE + Clr.LIME}I love VividHues!{Clr.RS}")
+any_string = f"{Clr.BO + Clr.CYAN}Hello {Clr.GREEN}earthlings!{Clr.RS}"
 print(any_string)
 
 
-# Alternatives
-name = input(Clr.PINK + "What's your name?\n\t--> " + Clr.RESET + Clr.UNDERLINE)
-print(Clr.RESET + Clr.BOLD + "Hello,", Clr.RED + Clr.UNDERLINE + name)
+# alternatives
+name = input(Clr.PINK + "What's your name?\n\t--> " + Clr.RS + Clr.UL)
+print(Clr.RS + Clr.BO + "Hello,", Clr.RED + Clr.UL + name)
 ```
 
 ## :rainbow: Available colours:
