@@ -18,6 +18,6 @@ class Clr:
     UNDERLINE = "\033[4m"
     UL = UNDERLINE
     BOLD = "\033[01m"
-    BL = BOLD
+    BO = BOLD
     RESET = "\033[0m"
     RS = RESET
