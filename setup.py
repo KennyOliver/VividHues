@@ -9,7 +9,7 @@ setup(
     author_email='kenny_oliver@icloud.com',
     packages=['VividHues'],  # needed to actually package something
     # install_requires=['numpy'], #needed for dependencies
-    version='3.2.10',
+    version='3.2.11',
     license='AGPL',  # license can be anything you like
     description='VividHues: super lightweight package for coloured strings in Python!',
     long_description=open('README.md').read(),  # you need a readme eventually (there will be a warning)
