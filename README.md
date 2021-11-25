@@ -21,7 +21,9 @@ pip install VividHues
 
 ### :bricks: Dependency
 _requirements.txt_
-```VividHues>=2.7.9```
+```
+VividHues>=2.7.9
+```
 
 _Dependabot.yml_
 ```yaml
@@ -31,6 +33,16 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
+```
+
+_Dockerfile_
+```dockerfile
+RUN pip install VividHues
+
+# or
+
+COPY requirements.txt .
+RUN pip install -r requirements.txt
 ```
 
 
