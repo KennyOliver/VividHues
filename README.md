@@ -55,11 +55,11 @@ print(Clr.RESET + Clr.BOLD + "Hello,", Clr.RED + Clr.UNDERLINE + name)
 
 ## :rainbow: Available colours:
 
-| Colour Codes | Formatting Codes |
-| :----------: | :--------------: |
-| Clr.RED      | Clr.UNDERLINE    |
-| Clr.ORANGE   | Clr.BOLD         |
-| Clr.YELLOW   | Clr.RESET        |
+| Colour Codes | Formatting Codes | Formatting Code Abbreviations |
+| :----------: | :--------------: | :---------------------------: |
+| Clr.RED      | Clr.UNDERLINE    | Clr.UL |
+| Clr.ORANGE   | Clr.BOLD         | Clr.BO |
+| Clr.YELLOW   | Clr.RESET        | Clr.RS |
 | Clr.LIME     |                  |
 | Clr.GREEN    |                  |
 | Clr.BLUE     |                  |
