@@ -81,5 +81,22 @@ print(Clr.RS + Clr.BO + "Hello,", Clr.RED + Clr.UL + name)
 | Clr.BLACK    |                  |
 | Clr.WHITE    |                  |
 
+## Functions
+
+```python
+Clr.random(string_to_color : str)
+```
+Prints on the standard output the string string_to_color colored with 1 color.
+
+```python
+Clr.jazzy(string_to_color : str)
+```
+Prints on the standard output the string string_to_color, with each letter colored with 1 random color.
+
+```python
+Clr.rainbow(string_to_color : str)
+```
+Prints on the standard output the string string_to_color, with the letter coloration following the rainbow pattern.
+
 ---
 Kenny Oliver ©2021
