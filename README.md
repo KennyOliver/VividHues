@@ -1,4 +1,4 @@
-# VividHues :rainbow: :paintbrush: :package:
+# VividHues :rainbow: :package:
 
 [![VividHues](https://github.com/KennyOliver/VividHues/actions/workflows/publish_to_test_pypi.yml/badge.svg)](https://github.com/KennyOliver/VividHues/actions/workflows/publish_to_test_pypi.yml)
 
