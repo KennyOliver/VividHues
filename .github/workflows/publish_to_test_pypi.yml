@@ -1,6 +1,9 @@
 name: VividHues
 
-on: push
+on:
+  push:
+    paths:
+      - "./setup.py"
 jobs:
   build-n-publish:
     name: Build & Publish VividHues
