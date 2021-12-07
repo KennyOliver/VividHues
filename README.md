@@ -24,7 +24,7 @@ pip install VividHues
 ###### Append this to your Python packages requirements file.
 ```
 VividHues>=2.7.9  # only has Clr codes
-VividHues>=4.0.0  # has new features such as abbreviations & Clr.rainbow()
+VividHues>=4.1.0  # has new features such as abbreviations & Clr.rainbow()
 ```
 
 #### _Dependabot.yml_ (optional)
