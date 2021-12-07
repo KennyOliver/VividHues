@@ -8,9 +8,9 @@ setup(
     author='Kenneth Oliver',
     author_email='kenny_oliver@icloud.com',
     packages=['VividHues'],
-    version='4.1.1',
+    version='4.2.0',
     license='AGPL-v3',
-    description='VividHues: super lightweight package for coloured strings in Python!',
+    description='VividHues: super lite package for coloured strings in Python!',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
 )
