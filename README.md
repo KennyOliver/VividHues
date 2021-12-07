@@ -9,23 +9,26 @@
 
 <!-- [![repl](https://repl.it/badge/github/KennyOliver/vividHues)](https://repl.it/@KennyOliver/vividHues) -->
 
-**VividHues: super lightweight package for coloured strings in Python!**
+**VividHues: super lite package for colored strings in Python!**
 
 <a href="https://pypi.org/project/VividHues/"><img src="https://img.shields.io/badge/PyPi-3775A9?style=for-the-badge&logo=pypi&logoColor=white" /></a>
 
 ## :hammer_and_wrench: Official Installation
-Use this command to install VividHues.
+###### Use this command, in your command line, to install VividHues.
 ```bash
 pip install VividHues
 ```
 
 ### :bricks: Dependency
-_requirements.txt_
+#### _requirements.txt_ (Highly Recommended!)
+###### Append this to your Python packages requirements file.
 ```
-VividHues>=2.7.9
+VividHues>=2.7.9  # only has Clr codes
+VividHues>=4.0.0  # has new features such as abbreviations & Clr.rainbow()
 ```
 
-_Dependabot.yml_
+#### _Dependabot.yml_ (optional)
+###### Create this file, to add your GitHub repo as a dependent.
 ```yaml
 version: 2
 updates:
@@ -35,7 +38,8 @@ updates:
       interval: "daily"
 ```
 
-_Dockerfile_
+#### _Dockerfile_ (optional)
+###### If you have a Docker container. :whale2:
 ```dockerfile
 RUN pip install VividHues
 
@@ -54,13 +58,13 @@ RUN pip install -r requirements.txt
 from VividHues import Clr
 
 
-# f-strings - recommended
+# f-strings -> highly recommended for your sanity
 print(f"{Clr.BO + Clr.UNDERLINE + Clr.LIME}I love VividHues!{Clr.RS}")
 any_string = f"{Clr.BO + Clr.CYAN}Hello {Clr.GREEN}earthlings!{Clr.RS}"
 print(any_string)
 
 
-# alternatives
+# concatenation -> if you're an odd person
 name = input(Clr.PINK + "What's your name?\n\t--> " + Clr.RS + Clr.UL)
 print(Clr.RS + Clr.BO + "Hello,", Clr.RED + Clr.UL + name)
 ```
@@ -72,31 +76,37 @@ print(Clr.RS + Clr.BO + "Hello,", Clr.RED + Clr.UL + name)
 | Clr.RED      | Clr.UNDERLINE    | Clr.UL |
 | Clr.ORANGE   | Clr.BOLD         | Clr.BO |
 | Clr.YELLOW   | Clr.RESET        | Clr.RS |
-| Clr.LIME     |                  |
-| Clr.GREEN    |                  |
-| Clr.BLUE     |                  |
-| Clr.CYAN     |                  |
-| Clr.PURPLE   |                  |
-| Clr.PINK     |                  |
-| Clr.BLACK    |                  |
-| Clr.WHITE    |                  |
+| Clr.LIME     |
+| Clr.GREEN    |
+| Clr.BLUE     |
+| Clr.CYAN     |
+| Clr.PURPLE   |
+| Clr.PINK     |
+| Clr.BLACK    |
+| Clr.WHITE    |
 
-## Functions
 
+## :magic_wand: Magic Functions
+
+#### :game_die: Clr.random()
 ```python
-Clr.random(string_to_color : str)
+print(Clr.random(string))
 ```
-Prints on the standard output the string string_to_color colored with 1 color.
+###### Picks a random Clr code.
 
+#### :saxophone: Clr.jazzy()
 ```python
-Clr.jazzy(string_to_color : str)
+print(Clr.jazzy(string))
 ```
-Prints on the standard output the string string_to_color, with each letter colored with 1 random color.
+###### Jazzes up your console by giving each letter of the string passed a random color!
+###### It's a total gamble, that's guaranteed to be ugly! :)
 
+#### :rainbow: Clr.rainbow()
 ```python
-Clr.rainbow(string_to_color : str)
+print(Clr.rainbow(string))
 ```
-Prints on the standard output the string string_to_color, with the letter coloration following the rainbow pattern.
+###### Makes any string colored in a rainbow pattern.
+
 
 ---
 Kenny Oliver ©2021
