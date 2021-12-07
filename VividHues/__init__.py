@@ -23,8 +23,11 @@ class Clr:
     RESET = "\033[0m"
     RS = RESET
 
+    
     @classmethod
-    def random_color(cls):
+    def random_color(cls) -> str:
+        """ returns a random Clr code """
+        
         colors = []  # List of all the colors in the class Clr
         for key in Clr.__dict__.keys():
             if key == "UNDERLINE":  # Once we got to UNDERLINE, there is no more color
@@ -34,27 +37,39 @@ class Clr:
         colors.pop(0)  # Remove the first key of (Clr.__dict__.keys()). Not a color
         return colors[random.randint(0, len(colors) - 1)]
 
-    @classmethod
-    def random(cls, string_to_color: str):
-        print(f'{Clr.random_color()}' + string_to_color)
 
     @classmethod
-    def jazzy(cls, string_to_color: str):
+    def random(cls, string_to_color: str) -> str:
+        """ chooses a random Clr code """
+        return f'{Clr.random_color()}' + string_to_color + Clr.RESET
+
+
+    @classmethod
+    def jazzy(cls, string_to_color: str) -> str:
+        """ gives each letter a random color """
+        jazzy_str = ""
+
         for letter in string_to_color:
-            print(f'{Clr.random_color()}' + letter, end="")
-        print("")
+            jazzy_str += Clr.random_color() + letter
+
+        return jazzy_str
+
 
     @classmethod
     def rainbow(cls, string_to_color: str):
+        """ colors each letter in a rainbow pattern """
         rainbow_colors = [Clr.RED, Clr.ORANGE, Clr.YELLOW, Clr.GREEN, Clr.LIME, Clr.CYAN, Clr.BLUE, Clr.PURPLE,
                           Clr.PINK]
+
+        rainbow_str = ""
         string_index = 0
         colors_index = 0
+
         while string_index <= len(string_to_color) - 1:
-            print(f'{rainbow_colors[colors_index]}' + string_to_color[string_index], end="")
+            rainbow_str += rainbow_colors[colors_index] + string_to_color[string_index]
             string_index += 1
             colors_index += 1
             if colors_index == 9:
                 colors_index = 0
-        print("")
-
+        
+        return rainbow_str
