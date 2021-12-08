@@ -1,4 +1,4 @@
-name: VividHues [Test PyPi]
+name: VividHues
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - "./setup.py"
 jobs:
   build-n-publish:
-    name: Build & Publish
+    name: Build & Publish VividHues
     runs-on: ubuntu-18.04
     steps:
     - uses: actions/checkout@master
@@ -20,7 +20,7 @@ jobs:
         pip install
         build
         --user --verbose
-    - name: Build binary wheel & source tarball
+    - name: Build a binary wheel and a source tarball
       run: >-
         python -m
         build
@@ -28,7 +28,7 @@ jobs:
         --wheel
         --outdir dist/
         .
-    - name: Publish to Test PyPI!
+    - name: Publish to Test PyPI
       uses: pypa/gh-action-pypi-publish@master
       with:
         password: ${{ secrets.TEST_PYPI_API_TOKEN }}
