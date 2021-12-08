@@ -13,6 +13,10 @@
 
 <a href="https://pypi.org/project/VividHues/"><img src="https://img.shields.io/badge/PyPi-3775A9?style=for-the-badge&logo=pypi&logoColor=white" /></a>
 
+<img src="repo-imgs/vividhues-example.png" width="30%" align="none" />
+
+---
+
 ## :hammer_and_wrench: Official Installation
 ###### Use this command, in your command line, to install VividHues.
 ```bash
@@ -41,32 +45,26 @@ updates:
 #### _Dockerfile_ (optional)
 ###### If you have a Docker container. :whale2:
 ```dockerfile
-RUN pip install VividHues
-
-# or
-
+# recommended
 COPY requirements.txt .
 RUN pip install -r requirements.txt
+
+# alternatively...
+RUN pip install VividHues
 ```
 
+---
 
-## :toolbox: Python Example
+## :snake: Python Example
 
-<img src="repo-imgs/vividhues-demo.jpg" align="right" />
+<img src="repo-imgs/vividhues-example.png" width="30%" align="right" />
 
 ```python
-from VividHues import Clr
-
-
-# f-strings -> highly recommended for your sanity
-print(f"{Clr.BO + Clr.UNDERLINE + Clr.LIME}I love VividHues!{Clr.RS}")
-any_string = f"{Clr.BO + Clr.CYAN}Hello {Clr.GREEN}earthlings!{Clr.RS}"
-print(any_string)
-
-
-# concatenation -> if you're an odd person
-name = input(Clr.PINK + "What's your name?\n\t--> " + Clr.RS + Clr.UL)
-print(Clr.RS + Clr.BO + "Hello,", Clr.RED + Clr.UL + name)
+print(Clr.BO + Clr.UL + Clr.rainbow('I love VividHues!') + Clr.RS)
+print(f"{Clr.RED}It's got my fave color!{Clr.RS}")
+print(f"Soooo {Clr.jazzy('jazzy')}")
+#                          ^^^
+# you'll get an error using "" in f-string interpolations
 ```
 
 ## :rainbow: Available Clr codes:
@@ -76,7 +74,7 @@ print(Clr.RS + Clr.BO + "Hello,", Clr.RED + Clr.UL + name)
 ###### UNDERLINE, UL, BOLD, BO, RESET, RS
 
 
-## :magic_wand: Magic Functions
+### :magic_wand: Magic Functions
 
 #### :game_die: Clr.random()
 ```python
