@@ -1,6 +1,6 @@
 import os
 import random
-os.system("")  # allows colours to be displayed in the console
+os.system("")  # allows colours to be displayed in the CLI
 
 
 class Clr:
@@ -58,8 +58,7 @@ class Clr:
     @classmethod
     def rainbow(cls, string_to_color: str):
         """ colors each letter in a rainbow pattern """
-        rainbow_colors = [Clr.RED, Clr.ORANGE, Clr.YELLOW, Clr.GREEN, Clr.LIME, Clr.CYAN, Clr.BLUE, Clr.PURPLE,
-                          Clr.PINK]
+        rainbow_colors = [Clr.RED, Clr.ORANGE, Clr.YELLOW, Clr.GREEN, Clr.LIME, Clr.CYAN, Clr.BLUE, Clr.PURPLE, Clr.PINK]
 
         rainbow_str = ""
         string_index = 0
