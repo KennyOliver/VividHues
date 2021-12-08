@@ -52,7 +52,7 @@ RUN pip install -r requirements.txt
 
 ## :toolbox: Python Example
 
-<img src="vividhues-demo.jpg" align="right" />
+<img src="repo-imgs/vividhues-demo.jpg" align="right" />
 
 ```python
 from VividHues import Clr
@@ -69,21 +69,11 @@ name = input(Clr.PINK + "What's your name?\n\t--> " + Clr.RS + Clr.UL)
 print(Clr.RS + Clr.BO + "Hello,", Clr.RED + Clr.UL + name)
 ```
 
-## :rainbow: Available colours:
-
-| Colour Codes | Formatting Codes | Formatting Code Abbreviations |
-| :----------: | :--------------: | :---------------------------: |
-| Clr.RED      | Clr.UNDERLINE    | Clr.UL |
-| Clr.ORANGE   | Clr.BOLD         | Clr.BO |
-| Clr.YELLOW   | Clr.RESET        | Clr.RS |
-| Clr.LIME     |
-| Clr.GREEN    |
-| Clr.BLUE     |
-| Clr.CYAN     |
-| Clr.PURPLE   |
-| Clr.PINK     |
-| Clr.BLACK    |
-| Clr.WHITE    |
+## :rainbow: Available Clr codes:
+#### Just put a color in the gap ```Clr.___```
+###### RED, ORANGE, YELLOW, LIME, GREEN, BLUE, CYAN, PURPLE, PINK, BLACK, WHITE
+#### Or use a formatter
+###### UNDERLINE, UL, BOLD, BO, RESET, RS
 
 
 ## :magic_wand: Magic Functions
