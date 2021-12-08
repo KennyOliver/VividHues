@@ -1,4 +1,4 @@
-name: VividHues
+name: VividHues [Test PyPi]
 
 on:
   push:
