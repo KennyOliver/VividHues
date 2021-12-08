@@ -22,7 +22,7 @@ pip install VividHues
 ### :bricks: Dependency
 #### _requirements.txt_ (Highly Recommended!)
 ###### Append this to your Python packages requirements file.
-```
+```python
 VividHues>=2.7.9  # only has Clr codes
 VividHues>=4.1.0  # has new features such as abbreviations & Clr.rainbow()
 ```
