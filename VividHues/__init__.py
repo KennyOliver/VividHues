@@ -47,12 +47,7 @@ class Clr:
     @classmethod
     def jazzy(cls, string_to_color: str) -> str:
         """ gives each letter a random color """
-        jazzy_str = ""
-
-        for letter in string_to_color:
-            jazzy_str += Clr.random_color() + letter
-
-        return jazzy_str
+        return "".join(Clr.random_color() + letter for letter in string_to_color)
 
 
     @classmethod
