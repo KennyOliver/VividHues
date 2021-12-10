@@ -32,7 +32,7 @@ VividHues  # simple, but may be better to specify versions
 ```
 ```python
 VividHues==3.0.0  # only has Clr codes
-VividHues>=4.1.0  # adds: abbreviations * Magic Functions
+VividHues>=4.1.0  # adds: abbreviations & Magic Functions
 VividHues>=5.2.0  # adds: Clr.pattern()
 ```
 
@@ -122,7 +122,7 @@ print(Clr.pattern(string, *color))
 | Special Features | :star: |  | :star: |
 | <b>Total</b> | <b>5/8 + 2/8 = 7/8</b> | <b>5/8</b> | <b>5/8</b> |
 
-This is why you should choose VividHues. Soon, it will have
+This is why you should choose VividHues. Soon, it'll have more features than the leading competitors - in a smaller form factor.
 
 
 ---
