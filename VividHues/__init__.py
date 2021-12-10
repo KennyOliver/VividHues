@@ -56,7 +56,7 @@ class Clr:
 
 
     @classmethod
-    def rainbow(cls, string_to_color: str):
+    def rainbow(cls, string_to_color: str) -> str:
         """ colors each letter in a rainbow pattern """
         rainbow_colors = [Clr.RED, Clr.ORANGE, Clr.YELLOW, Clr.GREEN, Clr.LIME, Clr.CYAN, Clr.BLUE, Clr.PURPLE, Clr.PINK]
 
@@ -72,3 +72,19 @@ class Clr:
                 colors_index = 0
         
         return rainbow_str
+    
+    @classmethod
+    def pattern(cls, string_to_color: str, *chosen_clrs) -> str:
+        """ allow custom definitions of Clr patterns """
+        pattern_str = ""
+        string_index = 0
+        colors_index = 0
+
+        while string_index <= len(string_to_color) - 1:
+            pattern_str += chosen_clrs[colors_index] + string_to_color[string_index]
+            colors_index += 1
+            string_index += 1
+            if colors_index == len(chosen_clrs):
+              colors_index = 0
+        
+        return pattern_str
