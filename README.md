@@ -109,7 +109,7 @@ print(Clr.pattern(string, *color))
 
 ---
 
-## How VividHues stacks up...
+## :muscle: How VividHues stacks up...
 | Feature | VividHues | Colorama | termcolor |
 | :-----: | :-------: | :------: | :-------: |
 | Simplicity/Abstraction | :star: | :star: | :star: |
