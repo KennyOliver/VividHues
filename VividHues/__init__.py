@@ -3,9 +3,6 @@ import random
 os.system("")  # allows colours to be displayed in the CLI
 
 
-__author__ = "Kenneth Oliver"
-__version__ = "5.1.0"
-
 class Clr:
     BLACK  = "\033[30m"
     RED    = "\033[31m"
