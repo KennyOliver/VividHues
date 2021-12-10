@@ -28,9 +28,10 @@ pip install VividHues
 #### _requirements.txt_ (Highly Recommended!)
 ###### Append one of these versions to your Python packages requirements.txt.
 ```python
-VividHues  # simple, but better to specify versions
-
-VividHues==3.*.*  # only has Clr codes
+VividHues  # simple, but may be better to specify versions
+```
+```python
+VividHues==3.0.0  # only has Clr codes
 VividHues>=4.1.0  # adds: abbreviations * Magic Functions
 VividHues>=5.2.0  # adds: Clr.pattern()
 ```
@@ -52,7 +53,8 @@ updates:
 # recommended
 COPY requirements.txt .
 RUN pip install -r requirements.txt
-
+```
+```dockerfile
 # alternatively...
 RUN pip install VividHues
 ```
@@ -69,7 +71,7 @@ print(f"{Clr.RED}It's got my fave color!{Clr.RS}")
 print(f"Soooo {Clr.jazzy('jazzy') + Clr.RS}")
 #                          ^^^
 # you'll get an error using "" in f-string interpolations
-print(Clr.pattern("Kenny Oliver", Clr.PURPLE, Clr.CYAN, Clr.LIME))
+print(Clr.pattern("Kenny Oliver", Clr.PURPLE, Clr.CYAN, Clr.LIME) + Clr.RS)
 ```
 
 ## :rainbow: Available Clr codes:
@@ -85,20 +87,19 @@ print(Clr.pattern("Kenny Oliver", Clr.PURPLE, Clr.CYAN, Clr.LIME))
 ```python
 print(Clr.random(string))
 ```
-###### Picks a random Clr code.
+###### Paints your string in a random Clr code.
 
 #### :saxophone: Clr.jazzy()
 ```python
 print(Clr.jazzy(string))
 ```
-###### Jazzes up your console by giving each letter of the string passed a random color!
-###### It's a total gamble, that's guaranteed to be ugly! :)
+###### Paints each letter in jazzy random colors! It's a total gamble, that's guaranteed to be ugly! :)
 
 #### :rainbow: Clr.rainbow()
 ```python
 print(Clr.rainbow(string))
 ```
-###### Makes any string colored in a rainbow pattern.
+###### Paints your string in a rainbow pattern.
 
 #### :test_tube: Clr.pattern()
 ```python
