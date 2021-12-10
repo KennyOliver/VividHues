@@ -19,20 +19,23 @@
 ---
 
 ## :hammer_and_wrench: Official Installation
-###### Use this command, in your command line, to install VividHues.
+##### Pop this command in your terminal to install VividHues.
 ```bash
 pip install VividHues
 ```
 
 ### :bricks: Dependency
 #### _requirements.txt_ (Highly Recommended!)
-###### Append this to your Python packages requirements file.
+###### Append one of these versions to your Python packages requirements.txt.
 ```python
-VividHues>=2.7.9  # only has Clr codes
-VividHues>=4.1.0  # has new features such as abbreviations & Clr.rainbow()
+VividHues  # simple, but better to specify versions
+
+VividHues==3.*.*  # only has Clr codes
+VividHues>=4.1.0  # adds: abbreviations * Magic Functions
+VividHues>=5.2.0  # adds: Clr.pattern()
 ```
 
-#### _Dependabot.yml_ (optional)
+#### _Dependabot.yml_ (optional, but needs requirements.txt)
 ###### Create this file, to add your GitHub repo as a dependent.
 ```yaml
 version: 2
