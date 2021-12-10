@@ -13,7 +13,7 @@
 
 <a href="https://pypi.org/project/VividHues/"><img src="https://img.shields.io/badge/PyPi-3775A9?style=for-the-badge&logo=pypi&logoColor=white" /></a>
 
-<img src="repo-imgs/vividhues-example.png" width="30%" align="none" />
+<img src="repo-imgs/vividhues-console-example.png" width="30%" align="none" />
 
 ---
 
@@ -57,21 +57,22 @@ RUN pip install VividHues
 
 ## :snake: Python Example
 
-<img src="repo-imgs/vividhues-example.png" width="30%" align="right" />
+<img src="repo-imgs/vividhues-console-example.png" width="30%" align="right" />
 
 ```python
 print(Clr.BO + Clr.UL + Clr.rainbow('I love VividHues!') + Clr.RS)
 print(f"{Clr.RED}It's got my fave color!{Clr.RS}")
-print(f"Soooo {Clr.jazzy('jazzy')}")
+print(f"Soooo {Clr.jazzy('jazzy') + Clr.RESET}")
 #                          ^^^
 # you'll get an error using "" in f-string interpolations
+print(Clr.pattern("Kenny Oliver", Clr.PURPLE, Clr.CYAN, Clr.LIME))
 ```
 
 ## :rainbow: Available Clr codes:
-#### Just put a color in the gap ```Clr.___```
-###### RED, ORANGE, YELLOW, LIME, GREEN, BLUE, CYAN, PURPLE, PINK, BLACK, WHITE
-#### Or use a formatter
-###### UNDERLINE, UL, BOLD, BO, RESET, RS
+#### Just put a code in the gap ```Clr.___```
+
+###### Clr: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RED, ORANGE, YELLOW, LIME, GREEN, BLUE, CYAN, PURPLE, PINK, BLACK, WHITE
+###### Formatter: &nbsp;&nbsp; UNDERLINE, UL, BOLD, BO, RESET, RS
 
 
 ### :magic_wand: Magic Functions
@@ -95,6 +96,11 @@ print(Clr.rainbow(string))
 ```
 ###### Makes any string colored in a rainbow pattern.
 
+#### :test_tube: Clr.pattern()
+```python
+print(Clr.pattern(string, *color))
+```
+###### Paint your letters in a repeating pattern, by specifying an unlimited amount of Clr codes!
 
 ---
 Kenny Oliver ©2021
