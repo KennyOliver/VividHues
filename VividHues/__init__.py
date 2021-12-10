@@ -3,25 +3,28 @@ import random
 os.system("")  # allows colours to be displayed in the CLI
 
 
+__author__ = "Kenneth Oliver"
+__version__ = "5.1.0"
+
 class Clr:
-    BLACK = "\033[30m"
-    RED = "\033[31m"
-    GREEN = "\033[32m"
+    BLACK  = "\033[30m"
+    RED    = "\033[31m"
+    GREEN  = "\033[32m"
     ORANGE = "\033[33m"
-    BLUE = "\033[34m"
+    BLUE   = "\033[34m"
     PURPLE = "\033[35m"
-    CYAN = "\033[36m"
-    WHITE = "\033[37m"
-    LIME = "\033[92m"
+    CYAN   = "\033[36m"
+    WHITE  = "\033[37m"
+    LIME   = "\033[92m"
     YELLOW = "\033[93m"
-    PINK = "\033[95m"
+    PINK   = "\033[95m"
     
     UNDERLINE = "\033[4m"
-    UL = UNDERLINE
+    UL        = UNDERLINE
     BOLD = "\033[01m"
-    BO = BOLD
+    BO   = BOLD
     RESET = "\033[0m"
-    RS = RESET
+    RS    = RESET
 
     
     @classmethod
