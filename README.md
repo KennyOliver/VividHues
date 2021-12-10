@@ -62,7 +62,7 @@ RUN pip install VividHues
 ```python
 print(Clr.BO + Clr.UL + Clr.rainbow('I love VividHues!') + Clr.RS)
 print(f"{Clr.RED}It's got my fave color!{Clr.RS}")
-print(f"Soooo {Clr.jazzy('jazzy') + Clr.RESET}")
+print(f"Soooo {Clr.jazzy('jazzy') + Clr.RS}")
 #                          ^^^
 # you'll get an error using "" in f-string interpolations
 print(Clr.pattern("Kenny Oliver", Clr.PURPLE, Clr.CYAN, Clr.LIME))
