@@ -108,4 +108,22 @@ print(Clr.pattern(string, *color))
 ###### Paint your letters in a repeating pattern, by specifying an unlimited amount of Clr codes!
 
 ---
+
+## How VividHues stacks up...
+| Feature | VividHues | Colorama | termcolor |
+| :-----: | :-------: | :------: | :-------: |
+| Simplicity/Abstraction | :star: | :star: | :star: |
+| Font Colors | :star: | :star: | :star: |
+| Background/Highlight | :soon: | :star: | :star: |
+| Bold/Underline | :star: |  | :star: |
+| Lightweight | :star: |  |  |
+| Auto-Reset | :soon: | :star: |  |
+| Cursor-Positioning |  | :star: |  |
+| Special Features | :star: |  | :star: |
+| <b>Total</b> | <b>5/8 + 2/8 = 7/8</b> | <b>5/8</b> | <b>5/8</b> |
+
+This is why you should choose VividHues. Soon, it will have
+
+
+---
 Kenny Oliver ©2021
