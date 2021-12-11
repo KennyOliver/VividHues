@@ -28,7 +28,7 @@ pip install VividHues
 #### _requirements.txt_ (Highly Recommended!)
 ###### Append one of these versions to your Python packages requirements.txt.
 ```python
-VividHues  # simple, but may be better to specify versions
+VividHues         # simple, but may be better to specify versions
 ```
 ```python
 VividHues==3.0.0  # only has Clr codes
@@ -48,7 +48,7 @@ updates:
 ```
 
 #### _Dockerfile_ (optional)
-###### If you have a Docker container. :whale2:
+###### If you have a Docker container. :whale:
 ```dockerfile
 # recommended
 COPY requirements.txt .
