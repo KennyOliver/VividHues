@@ -26,18 +26,20 @@ pip install VividHues
 
 ### :bricks: Dependency
 #### _requirements.txt_ (Highly Recommended!)
-###### Append one of these versions to your Python packages requirements.txt.
+###### Append the following to your Python packages `requirements.txt`.
 ```python
 VividHues>=5.2.0
 ```
+###### Changelog:
 ```python
 VividHues==3.0.0  # only has Clr codes
 VividHues>=4.1.0  # adds: abbreviations & Magic Functions
 VividHues>=5.2.0  # adds: Clr.pattern()
 ```
 
-#### _Dependabot.yml_ (optional, but needs requirements.txt)
-###### Create this file, to add your GitHub repo as a dependent.
+#### _.github/Dependabot.yml_ (optional, but needs requirements.txt)
+###### First, if you don't already have a `.github` directory: create one.
+###### Then, add a `Dependabot.yml` file to it.
 ```yaml
 version: 2
 updates:
