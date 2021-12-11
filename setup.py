@@ -16,7 +16,7 @@ setup(
     author="Kenneth Oliver",
     author_email="kenny_oliver@icloud.com",
     packages=[NAME],
-    version="5.2.5",
+    version="5.2.6",
     license="AGPL-3.0",
     description=f"{NAME}: super lite package for colored strings in Python!",
     long_description=open("README.md").read(),
@@ -27,7 +27,7 @@ setup(
         "Intended Audience :: Education",
         "Intended Audience :: End Users/Desktop",
         "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
-        "Operating System :: OS Independen"',
+        "Operating System :: OS Independen",
         "Programming Language :: Python",
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
@@ -36,6 +36,6 @@ setup(
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: Implementation :: PyPy",
         "Topic :: Terminals",
-    ],
+    ]
 )
 print("\033[32m" + "\033[1m" + f"{NAME} was installed successfully! Have colorful fun! :D" + "\033[0m")
