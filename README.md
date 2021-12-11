@@ -7,8 +7,6 @@
 ![Repo Size](https://img.shields.io/github/repo-size/KennyOliver/vividHues?style=for-the-badge)
 ![Total Lines](https://img.shields.io/tokei/lines/github/KennyOliver/vividHues?style=for-the-badge)
 
-<!-- [![repl](https://repl.it/badge/github/KennyOliver/vividHues)](https://repl.it/@KennyOliver/vividHues) -->
-
 **VividHues: super lite package for colored strings in Python!**
 
 <a href="https://pypi.org/project/VividHues/"><img src="https://img.shields.io/badge/PyPi-3775A9?style=for-the-badge&logo=pypi&logoColor=white" /></a>
@@ -25,7 +23,7 @@ pip install VividHues
 ```
 
 ### :bricks: Dependency
-#### _requirements.txt_ (Highly Recommended!)
+#### _`requirements.txt`_ (Highly Recommended!)
 ###### Append the following to your Python packages `requirements.txt`.
 ```python
 VividHues>=5.2.0
@@ -37,7 +35,7 @@ VividHues>=4.1.0  # adds: abbreviations & Magic Functions
 VividHues>=5.2.0  # adds: Clr.pattern()
 ```
 
-#### _.github/Dependabot.yml_ (optional, but needs requirements.txt)
+#### _`.github/Dependabot.yml`_ (optional, but needs requirements.txt)
 ###### First, if you don't already have a `.github` directory: create one.
 ###### Then, add a `Dependabot.yml` file to it.
 ```yaml
@@ -49,8 +47,8 @@ updates:
       interval: "daily"
 ```
 
-#### _Dockerfile_ (optional)
-###### If you have a Docker container. :whale:
+#### _`Dockerfile`_ :whale: (optional)
+###### You can use this if you have a Docker container.
 ```dockerfile
 # recommended
 COPY requirements.txt .
