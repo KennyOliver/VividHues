@@ -28,7 +28,7 @@ pip install VividHues
 #### _requirements.txt_ (Highly Recommended!)
 ###### Append one of these versions to your Python packages requirements.txt.
 ```python
-VividHues         # simple, but may be better to specify versions
+VividHues>=5.2.0
 ```
 ```python
 VividHues==3.0.0  # only has Clr codes
