@@ -16,7 +16,7 @@ setup(
     author="Kenneth Oliver",
     author_email="kenny_oliver@icloud.com",
     packages=[NAME],
-    version="5.2.7",
+    version="5.2.8",
     license="AGPL-3.0",
     description=f"{NAME}: super lite package for colored strings in Python!",
     long_description=open("README.md").read(),
