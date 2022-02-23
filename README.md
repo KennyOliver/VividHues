@@ -114,16 +114,15 @@ print(Clr.pattern(string, *color))
 | :-----: | :-------: | :------: | :-------: |
 | Simplicity/Abstraction | :star: | :star: | :star: |
 | Font Colors | :star: | :star: | :star: |
-| Background/Highlight | :soon: | :star: | :star: |
+| Background/Highlight | :crossed_fingers: | :star: | :star: |
 | Bold/Underline | :star: |  | :star: |
 | Lightweight | :star: |  |  |
-| Auto-Reset | :soon: | :star: |  |
+| Auto-Reset | :crossed_fingers: | :star: |  |
 | Cursor-Positioning |  | :star: |  |
 | Special Features | :star: |  | :star: |
 | <b>Total</b> | <b>5/8 + 2/8 = 7/8</b> | <b>5/8</b> | <b>5/8</b> |
 
-This is why you should choose VividHues. Soon, it'll have more features than the leading competitors - in a smaller form factor.
-
+Potentially, VividHues will have more features than the competition if they are implemented.
 
 ---
 Kenny Oliver ©2021
