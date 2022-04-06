@@ -7,6 +7,10 @@
 ![Repo Size](https://img.shields.io/github/repo-size/KennyOliver/vividHues?style=for-the-badge)
 ![Total Lines](https://img.shields.io/tokei/lines/github/KennyOliver/vividHues?style=for-the-badge)
 
+[![Downloads](https://pepy.tech/badge/vividhues)](https://pepy.tech/project/vividhues)
+[![Downloads](https://pepy.tech/badge/vividhues/month)](https://pepy.tech/project/vividhues)
+[![Downloads](https://pepy.tech/badge/vividhues/week)](https://pepy.tech/project/vividhues)
+
 **VividHues: super lite package for colored strings in Python!**
 
 <a href="https://pypi.org/project/VividHues/"><img src="https://img.shields.io/badge/PyPi-3775A9?style=for-the-badge&logo=pypi&logoColor=white" /></a>
