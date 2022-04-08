@@ -106,7 +106,7 @@ See the example
 
 ### How do I prevent/solve this? :tada:
 
-#### :a: End `print()` with `Clr.RS`/`Clr.RESET`
+#### :a: End <kbd>print()</kbd> with <kbd>Clr.RS</kbd>/<kbd>Clr.RESET</kbd>
 ```py
 print(... + Clr.RS)  # recommended!
 
@@ -140,15 +140,16 @@ print(Clr.RS, end="")
 ---
 
 ## :rainbow: Available Clr codes:
-#### Just put a code in the gap ```Clr.___```
+#### Just put a code in the gap <kbd>Clr.___</kbd>
 
 ###### <big>Clr:</big> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RED, ORANGE, YELLOW, LIME, GREEN, BLUE, CYAN, PURPLE, PINK, BLACK, WHITE
-###### <big>Formatter:</big> &nbsp;&nbsp; UNDERLINE, UL, BOLD, BO
+###### <big>Formatter:</big> &nbsp;&nbsp;&nbsp;&nbsp; UNDERLINE, UL, BOLD, BO
 ###### <big>Reset:</big> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RESET, RS
 
-> ##### NOTE:
-> ###### This depends on what you imported VividHues as...
->`from VividHues import Clr`
+> ##### :pencil: Note!
+> ###### In order to make your life easy, when reading the documentation,
+> ###### Your import statement should be the following... :point_down:
+> `from VividHues import Clr` so that you can use `Clr.___`
 
 ---
 
@@ -197,16 +198,16 @@ print(Clr.RS, end="")
 
 ## :muscle: How VividHues stacks up...
 | Feature | [VividHues](https://pypi.org/project/VividHues/) | [Colorama](https://pypi.org/project/colorama/) | [termcolor](https://pypi.org/project/termcolor/) |
-| :--------------------: | :---------------: | :------: | :-------: |
-| Simplicity/Abstraction | :star:            | :star:   | :star:    |
-| Font Colors            | :star:            | :star:   | :star:    |
-| Background/Highlight   | <small><small>:crossed_fingers:</small></small> | :star: | :star: |
-| Bold/Underline         | :star:            |          | :star:    |
-| Lightweight            | :star:            |          |           |
-| Auto-Reset             | <small><small>:crossed_fingers:</small></small> | :star: |        |
-| Cursor-Positioning     |                   | :star:   |           |
-| Special Features       | :star:            |          | :star:    |
-| <b>Total</b> | <b>5/8<small><small><small> + 2/8 = 7/8</small></small></small></b> | <b>5/8</b> | <b>5/8</b> |
+| :--------------------: | :---------------: | :------:   | :--------: |
+| Simplicity/Abstraction | :star:            | :star:     | :star:     |
+| Font Colors            | :star:            | :star:     | :star:     |
+| Background/Highlight   | :crossed_fingers: | :star:     | :star:     |
+| Bold/Underline         | :star:            |            | :star:     |
+| Lightweight            | :star:            |            |            |
+| Auto-Reset             | :crossed_fingers: | :star:     |            |
+| Cursor-Positioning     |                   | :star:     |            |
+| Special Features       | :star:            |            | :star:     |
+| <b>Total</b>           | <b>5/8</b>        | <b>5/8</b> | <b>5/8</b> |
 
 Potentially, VividHues will have more features than the alternatives if they are implemented.
 
