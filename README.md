@@ -1,29 +1,36 @@
 # VividHues :rainbow: :package:
 
 [![VividHues](https://github.com/KennyOliver/VividHues/actions/workflows/python-publish.yml/badge.svg)](https://github.com/KennyOliver/VividHues/actions/workflows/python-publish.yml)
+[![Downloads](https://static.pepy.tech/personalized-badge/vividhues?period=total&units=international_system&left_color=gray&right_color=blue&left_text=Total%20Downloads)](https://pepy.tech/project/vividhues)
+[![Downloads](https://static.pepy.tech/personalized-badge/vividhues?period=month&units=international_system&left_color=gray&right_color=blue&left_text=Past%20Month)](https://pepy.tech/project/vividhues)
+[![Downloads](https://static.pepy.tech/personalized-badge/vividhues?period=week&units=international_system&left_color=gray&right_color=blue&left_text=Past%20Week)](https://pepy.tech/project/vividhues)
 
 ![CodeFactor](https://www.codefactor.io/repository/github/KennyOliver/vividHues/badge?style=for-the-badge)
 ![Latest SemVer](https://img.shields.io/github/v/tag/KennyOliver/vividHues?label=version&sort=semver&style=for-the-badge)
 ![Repo Size](https://img.shields.io/github/repo-size/KennyOliver/vividHues?style=for-the-badge)
 ![Total Lines](https://img.shields.io/tokei/lines/github/KennyOliver/vividHues?style=for-the-badge)
 
-[![Downloads](https://pepy.tech/badge/vividhues)](https://pepy.tech/project/vividhues)
-[![Downloads](https://pepy.tech/badge/vividhues/month)](https://pepy.tech/project/vividhues)
-[![Downloads](https://pepy.tech/badge/vividhues/week)](https://pepy.tech/project/vividhues)
 
-**VividHues: super lite package for colored strings in Python!**
+**<big>VividHues:</big> &nbsp;&nbsp; super lite package for colored strings in Python!**
 
 <a href="https://pypi.org/project/VividHues/"><img src="https://img.shields.io/badge/PyPi-3775A9?style=for-the-badge&logo=pypi&logoColor=white" /></a>
 <a href="https://test.pypi.org/project/VividHues/"><img src="https://img.shields.io/badge/Test%20PyPi-white?style=for-the-badge&logo=pypi&logoColor=3775A9" /></a>
 
-<img src="repo-imgs/vividhues-console-example.png" width="30%" align="none" />
+<img src="https://user-images.githubusercontent.com/70860732/162396475-b2c511af-0ddd-4e85-8d17-b62b3d732e78.png" width="50%" align="none" />
 
 ---
 
 ## :hammer_and_wrench: Official Installation
-##### Pop this command in your terminal to install VividHues.
+##### Pop this command in your shell/terminal to install VividHues.
 ```bash
-pip install VividHues
+# in your shell/terminal...
+$ pip install VividHues
+```
+
+##### Stick this wherever you need VividHues!
+```py
+# at the top of your .py files...
+from VividHues import Clr
 ```
 
 ### :bricks: Dependency
@@ -33,14 +40,15 @@ pip install VividHues
 VividHues>=5.2.0
 ```
 ###### Changelog:
-```python
-VividHues==3.0.0  # only has Clr codes
-VividHues>=4.1.0  # adds: abbreviations & Magic Functions
-VividHues>=5.2.0  # adds: Clr.pattern()
+```py
+VividHues==3.0.0    #  only has Clr codes
+VividHues>=4.1.0    #  adds abbreviations & Magic Functions
+VividHues>=5.2.0    #  adds Magic Function Clr.pattern()
+VividHues>=5.3.0    #  all Magic Functions no longer leak color
 ```
 
 #### _`.github/Dependabot.yml`_ (optional, but needs requirements.txt)
-###### First, if you don't already have a `.github` directory: create one.
+###### First, if you don't already have a `.github` directory, create one.
 ###### Then, add a `Dependabot.yml` file to it.
 ```yaml
 version: 2
@@ -67,7 +75,7 @@ RUN pip install VividHues
 
 ## :snake: Python Example
 
-<img src="repo-imgs/vividhues-console-example.png" width="30%" align="right" />
+<img src="https://user-images.githubusercontent.com/70860732/162396475-b2c511af-0ddd-4e85-8d17-b62b3d732e78.png" width="30%" align="right" />
 
 ```python
 print(Clr.BO + Clr.UL + Clr.rainbow('I love VividHues!') + Clr.RS)
@@ -78,55 +86,129 @@ print(f"Soooo {Clr.jazzy('jazzy') + Clr.RS}")
 print(Clr.pattern("Kenny Oliver", Clr.PURPLE, Clr.CYAN, Clr.LIME) + Clr.RS)
 ```
 
+---
+
+## :warning: Preventing Color Leakage!
+
+### What is color leakage??? :thinking:
+
+**Color leakage is when you have forgotten to use `Clr.RS`/`Clr.RESET`** to reset the formatting after the last character printed to the standard output!
+
+It results in any trailing characters, in the output stream, to continue to have the same formatting.
+
+**This is an intentional feature,** because it allows for the formatting of entire chunks of code in one go.
+See the example
+
+> #### :pencil: Note!
+> As of `VividHues>=5.3.0`, <big>ALL</big> magic functions do not leak color.
+> 
+> Previously, it was only `Clr.random()`!
+
+### How do I prevent/solve this? :tada:
+
+#### :a: End `print()` with `Clr.RS`/`Clr.RESET`
+```py
+print(... + Clr.RS)  # recommended!
+
+print(..., Clr.RS)
+
+print(..., end=Clr.RS+"\n")
+```
+
+#### :b: Format chunks of code
+```py
+# start formatting here
+print(Clr.BOLD + Clr.RED, end="")
+
+
+if something:
+  print(Clr.BLUE + "blah blah blah" + Clr.RS)
+else:
+  for x in range(100):
+    # lots of print statements
+
+
+# end formatting here
+print(Clr.RS, end="")
+```
+
+> #### :bulb: Tip!
+> These solutions also prevent the leakage of other formatting
+> 
+> (e.g. `Clr.BO`, `Clr.BOLD`, `Clr.UL`, `Clr.UNDERLINE`)
+
+---
+
 ## :rainbow: Available Clr codes:
 #### Just put a code in the gap ```Clr.___```
 
-###### Clr: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RED, ORANGE, YELLOW, LIME, GREEN, BLUE, CYAN, PURPLE, PINK, BLACK, WHITE
-###### Formatter: &nbsp;&nbsp; UNDERLINE, UL, BOLD, BO, RESET, RS
+###### <big>Clr:</big> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RED, ORANGE, YELLOW, LIME, GREEN, BLUE, CYAN, PURPLE, PINK, BLACK, WHITE
+###### <big>Formatter:</big> &nbsp;&nbsp; UNDERLINE, UL, BOLD, BO
+###### <big>Reset:</big> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RESET, RS
 
+> ##### NOTE:
+> ###### This depends on what you imported VividHues as...
+>`from VividHues import Clr`
 
-### :magic_wand: Magic Functions
+---
+
+## :magic_wand: Magic Functions
+
+##### :bulb: TIP! &nbsp;&nbsp; Magic Functions do not leak color
 
 #### :game_die: Clr.random()
-```python
-print(Clr.random(string))
-```
-###### Paints your string in a random Clr code.
+
+<img src="https://user-images.githubusercontent.com/70860732/162318600-f533f919-7119-4027-9f37-4a51da22051d.png" width="50%" align="right" />
+
+> ```python
+> print(Clr.random(string))
+> ```
+> ###### Paints your string in a random Clr code.
 
 #### :saxophone: Clr.jazzy()
-```python
-print(Clr.jazzy(string))
-```
-###### Paints each letter in jazzy random colors! It's a total gamble, that's guaranteed to be ugly! :)
+
+<img src="https://user-images.githubusercontent.com/70860732/162393890-7af20eae-501e-4a2c-aeef-9cdabb01f759.png" width="50%" align="right" />
+
+> ```python
+> print(Clr.jazzy(string))
+> ```
+> ###### Paints each letter in jazzy random colors! It's a total gamble, that's guaranteed to be ugly! :)
 
 #### :rainbow: Clr.rainbow()
-```python
-print(Clr.rainbow(string))
-```
-###### Paints your string in a rainbow pattern.
+
+<img src="https://user-images.githubusercontent.com/70860732/162399848-590a5864-6547-418d-9768-40d36dc839c0.png" width="50%" align="right" />
+
+> ```python
+> print(Clr.rainbow(string))
+> ```
+
+> ###### Paints your string in a rainbow pattern.
 
 #### :test_tube: Clr.pattern()
-```python
-print(Clr.pattern(string, *color))
-```
-###### Paint your letters in a repeating pattern, by specifying an unlimited amount of Clr codes!
+
+<img src="https://user-images.githubusercontent.com/70860732/162422427-ef00dc83-7b08-4c72-9677-c4ea3b019ff2.png" width="50%" align="right" />
+
+> ```python
+> print(Clr.pattern(string, *color))
+> ```
+> ###### Paint your letters in a repeating pattern, by specifying an unlimited amount of Clr codes!
 
 ---
 
 ## :muscle: How VividHues stacks up...
 | Feature | [VividHues](https://pypi.org/project/VividHues/) | [Colorama](https://pypi.org/project/colorama/) | [termcolor](https://pypi.org/project/termcolor/) |
-| :-----: | :-------: | :------: | :-------: |
-| Simplicity/Abstraction | :star: | :star: | :star: |
-| Font Colors | :star: | :star: | :star: |
-| Background/Highlight | :crossed_fingers: | :star: | :star: |
-| Bold/Underline | :star: |  | :star: |
-| Lightweight | :star: |  |  |
-| Auto-Reset | :crossed_fingers: | :star: |  |
-| Cursor-Positioning |  | :star: |  |
-| Special Features | :star: |  | :star: |
-| <b>Total</b> | <b>5/8 + 2/8 = 7/8</b> | <b>5/8</b> | <b>5/8</b> |
+| :--------------------: | :---------------: | :------: | :-------: |
+| Simplicity/Abstraction | :star:            | :star:   | :star:    |
+| Font Colors            | :star:            | :star:   | :star:    |
+| Background/Highlight   | <small><small>:crossed_fingers:</small></small> | :star: | :star: |
+| Bold/Underline         | :star:            |          | :star:    |
+| Lightweight            | :star:            |          |           |
+| Auto-Reset             | <small><small>:crossed_fingers:</small></small> | :star: |        |
+| Cursor-Positioning     |                   | :star:   |           |
+| Special Features       | :star:            |          | :star:    |
+| <b>Total</b> | <b>5/8<small><small><small> + 2/8 = 7/8</small></small></small></b> | <b>5/8</b> | <b>5/8</b> |
 
-Potentially, VividHues will have more features than the competition if they are implemented.
+Potentially, VividHues will have more features than the alternatives if they are implemented.
 
 ---
 Kenny Oliver ©2021

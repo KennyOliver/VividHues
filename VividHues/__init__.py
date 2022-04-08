@@ -41,7 +41,7 @@ class Clr:
     @classmethod
     def random(cls, string_to_color: str) -> str:
         """ chooses a random Clr code """
-        return f'{Clr.random_color()}' + string_to_color + Clr.RESET
+        return f'{Clr.random_color()}' + string_to_color + Clr.RS
 
 
     @classmethod
@@ -52,7 +52,7 @@ class Clr:
         for letter in string_to_color:
             jazzy_str += Clr.random_color() + letter
 
-        return jazzy_str
+        return jazzy_str + Clr.RS
 
 
     @classmethod
@@ -71,7 +71,7 @@ class Clr:
             if colors_index == 9:
                 colors_index = 0
         
-        return rainbow_str
+        return rainbow_str + Clr.RS
     
     @classmethod
     def pattern(cls, string_to_color: str, *chosen_clrs) -> str:
@@ -87,4 +87,4 @@ class Clr:
             if colors_index == len(chosen_clrs):
               colors_index = 0
         
-        return pattern_str
+        return pattern_str + Clr.RS
