@@ -21,15 +21,13 @@
 ---
 
 ## :hammer_and_wrench: Official Installation
-##### Pop this command in your shell/terminal to install VividHues.
+##### Pop this command in your CLI/shell/terminal to install VividHues.
 ```bash
-# in your shell/terminal...
 $ pip install VividHues
 ```
 
 ##### Stick this wherever you need VividHues!
 ```py
-# at the top of your .py files...
 from VividHues import Clr
 ```
 
@@ -153,13 +151,29 @@ print(Clr.RS, end="")
 
 ---
 
+## :wastebasket: Erasing the previous line
+
+VividHues provides you with a quick way to erase the last line of the CLI!
+
+```py
+# Delete the last printed line of the CLI
+Clr.delPrevLine()
+```
+
+```py
+# Delete the last  5  printed lines
+Clr.delPrevLine(5)
+```
+
+---
+
 ## :magic_wand: Magic Functions!!!
 
 ##### :bulb: TIP! &nbsp;&nbsp; Magic Functions do not leak color
 
 #### :game_die: Clr.random()
 
-<img src="https://user-images.githubusercontent.com/70860732/162318600-f533f919-7119-4027-9f37-4a51da22051d.png" width="50%" align="right" />
+<img src="https://user-images.githubusercontent.com/70860732/162318600-f533f919-7119-4027-9f37-4a51da22051d.png" width="40%" align="right" />
 
 > ```python
 > print(Clr.random(string))
@@ -168,7 +182,7 @@ print(Clr.RS, end="")
 
 #### :saxophone: Clr.jazzy()
 
-<img src="https://user-images.githubusercontent.com/70860732/162393890-7af20eae-501e-4a2c-aeef-9cdabb01f759.png" width="50%" align="right" />
+<img src="https://user-images.githubusercontent.com/70860732/162393890-7af20eae-501e-4a2c-aeef-9cdabb01f759.png" width="40%" align="right" />
 
 > ```python
 > print(Clr.jazzy(string))
@@ -177,7 +191,7 @@ print(Clr.RS, end="")
 
 #### :rainbow: Clr.rainbow()
 
-<img src="https://user-images.githubusercontent.com/70860732/162399848-590a5864-6547-418d-9768-40d36dc839c0.png" width="50%" align="right" />
+<img src="https://user-images.githubusercontent.com/70860732/162399848-590a5864-6547-418d-9768-40d36dc839c0.png" width="40%" align="right" />
 
 > ```python
 > print(Clr.rainbow(string))
@@ -187,7 +201,7 @@ print(Clr.RS, end="")
 
 #### :test_tube: Clr.pattern()
 
-<img src="https://user-images.githubusercontent.com/70860732/162422427-ef00dc83-7b08-4c72-9677-c4ea3b019ff2.png" width="50%" align="right" />
+<img src="https://user-images.githubusercontent.com/70860732/162422427-ef00dc83-7b08-4c72-9677-c4ea3b019ff2.png" width="40%" align="right" />
 
 > ```python
 > print(Clr.pattern(string, *color))
@@ -198,18 +212,45 @@ print(Clr.RS, end="")
 
 ## :muscle: How VividHues stacks up...
 | Feature | [VividHues](https://pypi.org/project/VividHues/) | [Colorama](https://pypi.org/project/colorama/) | [termcolor](https://pypi.org/project/termcolor/) |
-| :--------------------: | :---------------: | :------:   | :--------: |
-| Simplicity/Abstraction | :star:            | :star:     | :star:     |
-| Font Colors            | :star:            | :star:     | :star:     |
-| Background/Highlight   | :crossed_fingers: | :star:     | :star:     |
-| Bold/Underline         | :star:            |            | :star:     |
-| Lightweight            | :star:            |            |            |
-| Auto-Reset             | :crossed_fingers: | :star:     |            |
-| Cursor-Positioning     |                   | :star:     |            |
-| Special Features       | :star:            |            | :star:     |
-| <b>Total</b>           | <b>5/8</b>        | <b>5/8</b> | <b>5/8</b> |
+| :--------------------:  | :---------------: | :------:   | :--------: |
+| Simplicity/Abstraction  | :star:            | :star:     | :star:     |
+| Font Colors             | :star:            | :star:     | :star:     |
+| Background/Highlight    | :crossed_fingers: | :star:     | :star:     |
+| Bold/Underline          | :star:            |            | :star:     |
+| Lightweight             | :star:            |            |            |
+| Auto-Reset              | :crossed_fingers: | :star:     |            |
+| Cursor-Positioning      |                   | :star:     |            |
+| Special/Unique Features | :star:            |            | :star:     |
+| <b>Total</b>            | <b>5/8</b>        | <b>5/8</b> | <b>5/8</b> |
 
 Potentially, VividHues will have more features than the alternatives if they are implemented.
+
+___
+
+## :mag_right: Getting Package Info
+
+```py
+import VividHues  # different import this time!
+
+
+print(VividHues.__author__)
+# Kenneth Oliver ©2022
+
+print(VividHues.__desc__)
+# Super lite package for colored strings in Python! 🌈 📦
+
+print(VividHues.__homepage__)
+# https://github.com/KennyOliver/VividHues
+
+print(VividHues.__package__)
+# VividHues
+
+print(VividHues.__pypi__)
+# https://pypi.org/project/VividHues/
+
+print(VividHues.__name__)
+# VividHues
+```
 
 ---
 Kenny Oliver ©2021

@@ -3,6 +3,14 @@ import random
 os.system("")  # allows colours to be displayed in the CLI
 
 
+__author__    = "Kenneth Oliver ©2022"
+__desc__      = "Super lite package for colored strings in Python! 🌈 📦"
+__homepage__  = "https://github.com/KennyOliver/VividHues"
+__package__   = "VividHues"
+__pypi__      = "https://pypi.org/project/VividHues/"
+__name__      = "VividHues"
+
+
 class Clr:
     BLACK  = "\033[30m"
     RED    = "\033[31m"
@@ -88,3 +96,14 @@ class Clr:
               colors_index = 0
         
         return pattern_str + Clr.RS
+
+    
+    def delPrevLine(repeat: int = 1) -> None:
+        ''' Erases the previous line in the shell '''
+
+        import sys
+        
+        CURSOR_UP_ONE = '\x1b[1A' 
+        ERASE_LINE    = '\x1b[2K'
+        for _ in range(int(repeat)):
+            sys.stdout.write(CURSOR_UP_ONE + ERASE_LINE)
