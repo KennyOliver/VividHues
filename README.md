@@ -35,14 +35,19 @@ from VividHues import Clr
 #### _`requirements.txt`_ (Highly Recommended!)
 ###### Append the following to your Python packages `requirements.txt`.
 ```python
-VividHues>=5.2.0
+VividHues  # latest
+
+# or
+
+VividHues>=5.3.0  # this and higher is recommended
 ```
 ###### Changelog:
 ```py
-VividHues==3.0.0    #  only has Clr codes
-VividHues>=4.1.0    #  adds abbreviations & Magic Functions
-VividHues>=5.2.0    #  adds Magic Function Clr.pattern()
+VividHues>=3.0.0    #  basics: only has Clr codes
+VividHues>=4.1.0    #  new: abbreviations & "Magic Functions"
+VividHues>=5.2.0    #  Magic Function: Clr.pattern()
 VividHues>=5.3.0    #  all Magic Functions no longer leak color
+VividHues>=5.4.0    #  Clr.delPrevLine()
 ```
 
 #### _`.github/Dependabot.yml`_ (optional, but needs requirements.txt)
