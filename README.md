@@ -139,7 +139,7 @@ print(Clr.RS, end="")
 
 ---
 
-## :rainbow: Available Clr codes:
+## :rainbow: Available `Clr` codes:
 #### Just put a code in the gap <kbd>Clr.___</kbd>
 
 ###### <big>Clr:</big> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RED, ORANGE, YELLOW, LIME, GREEN, BLUE, CYAN, PURPLE, PINK, BLACK, WHITE
@@ -153,7 +153,7 @@ print(Clr.RS, end="")
 
 ---
 
-## :magic_wand: Magic Functions
+## :magic_wand: Magic Functions!!!
 
 ##### :bulb: TIP! &nbsp;&nbsp; Magic Functions do not leak color
 
