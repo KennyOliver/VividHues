@@ -22,8 +22,8 @@
 
 ## :hammer_and_wrench: Official Installation
 
-> ### :wink: Shortcut!
-> #### :point_down: _You can install with the Bash script if you'd like!_
+> ### :wink: Shortcut &nbsp; — &nbsp; _Instant Installer + Updater_
+> ###### :point_down: _You can install with the Bash script if you'd like!_
 > 
 > <a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/installer.sh" download><img src="https://custom-icon-badges.herokuapp.com/badge/-Get%20Installer%20Script-4EAA25?style=for-the-badge&logo=download&logoColor=white&labelColor=black" /></a>
 
@@ -31,6 +31,12 @@
 ```bash
 $ pip install VividHues
 ```
+
+> #### :bulb: Tip
+> ###### Use this command to update
+> ```bash
+> pip install --upgrade VividHues
+> ```
 
 ##### Stick this wherever you need VividHues!
 ```py
