@@ -26,7 +26,8 @@
 > #### _You can install with a Bash script if you'd like!_
 > 
 > <!-- BEGIN DOWNLOAD SCRIPT ZIP BUTTON -->
-> <!-- END DOWNLOAD SCRIPT ZIP BUTTON -->
+[![Download zip](https://custom-icon-badges.herokuapp.com/badge/-Download-4EAA25?style=for-the-badge&logo=download&logoColor=white "Download zip")](https://github.com/KennyOliver/VividHues/archive/.zip)
+<!-- END DOWNLOAD SCRIPT ZIP BUTTON -->
 
 ##### Pop this command in your CLI/shell/terminal to install VividHues.
 ```bash
