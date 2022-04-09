@@ -23,8 +23,7 @@
 ## :hammer_and_wrench: Official Installation
 
 > ### :runner: Shortcut!
-> #### _You can install with a Bash script if you'd like!_
-> #### _You can install with a Bash script if you'd like!_
+> #### :point_down: _You can install with the Bash script if you'd like!_
 > 
 > <a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/installer.sh" download><img src="https://custom-icon-badges.herokuapp.com/badge/-Get%20Installer%20Script-4EAA25?style=for-the-badge&logo=download&logoColor=white&labelColor=black" /></a>
 
