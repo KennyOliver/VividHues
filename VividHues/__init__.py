@@ -49,12 +49,14 @@ class Clr:
     @classmethod
     def random(cls, string_to_color: str) -> str:
         """ chooses a random Clr code """
+      
         return f'{Clr.random_color()}' + string_to_color + Clr.RS
 
 
     @classmethod
     def jazzy(cls, string_to_color: str) -> str:
         """ gives each letter a random color """
+      
         jazzy_str = ""
 
         for letter in string_to_color:
@@ -66,6 +68,7 @@ class Clr:
     @classmethod
     def rainbow(cls, string_to_color: str) -> str:
         """ colors each letter in a rainbow pattern """
+      
         rainbow_colors = [Clr.RED, Clr.ORANGE, Clr.YELLOW, Clr.GREEN, Clr.LIME, Clr.CYAN, Clr.BLUE, Clr.PURPLE, Clr.PINK]
 
         rainbow_str = ""
@@ -84,6 +87,14 @@ class Clr:
     @classmethod
     def pattern(cls, string_to_color: str, *chosen_clrs) -> str:
         """ allow custom definitions of Clr patterns """
+
+        if len(chosen_clrs) < 1:
+            raise ValueError(
+                Clr.CYAN
+              + f"Expected some Clr codes, but was povided {len(chosen_clrs)}!"
+              + Clr.RS
+            )
+      
         pattern_str = ""
         string_index = 0
         colors_index = 0
@@ -99,7 +110,14 @@ class Clr:
 
     
     def delPrevLine(repeat: int = 1) -> None:
-        ''' Erases the previous line in the shell '''
+        ''' erases the previous line in the CLI '''
+
+        if repeat < 0:
+            raise ValueError(
+                Clr.CYAN
+              + f"Expected a positive value for repeat, but was povided {repeat}!"
+              + Clr.RS
+            )
 
         import sys
         
