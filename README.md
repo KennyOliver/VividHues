@@ -14,7 +14,7 @@
 **<big>VividHues:</big> &nbsp;&nbsp; super lite package for colored strings in Python!**
 
 <a href="https://pypi.org/project/VividHues/"><img src="https://img.shields.io/badge/PyPi-3775A9?style=for-the-badge&logo=pypi&logoColor=white" /></a>
-<a href="https://test.pypi.org/project/VividHues/"><img src="https://img.shields.io/badge/Test%20PyPi-white?style=for-the-badge&logo=pypi&logoColor=3775A9" /></a>
+<a href="https://test.pypi.org/project/VividHues/"><img src="https://img.shields.io/badge/Test%20PyPi-E8C541?style=for-the-badge&logo=pypi&logoColor=white" /></a>
 
 <img src="https://user-images.githubusercontent.com/70860732/162396475-b2c511af-0ddd-4e85-8d17-b62b3d732e78.png" width="50%" align="none" />
 
@@ -25,7 +25,8 @@
 > ### :runner: Shortcut!
 > #### _You can install with a Bash script if you'd like!_
 > 
-> <a href="./installer.sh" download><img src="https://img.shields.io/badge/Download%20Installer%20Script-4EAA25?style=for-the-badge&logo=windowsterminal&labelColor=black&logoColor=white" /></a>
+> <!-- BEGIN DOWNLOAD SCRIPT ZIP BUTTON -->
+> <!-- END DOWNLOAD SCRIPT ZIP BUTTON -->
 
 ##### Pop this command in your CLI/shell/terminal to install VividHues.
 ```bash
