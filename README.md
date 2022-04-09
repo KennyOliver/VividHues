@@ -21,6 +21,12 @@
 ---
 
 ## :hammer_and_wrench: Official Installation
+
+> ### :runner: Shortcut!
+> #### _You can install with a Bash script if you'd like!_
+> 
+> [![](https://img.shields.io/badge/Download%20Installer%20Script-4EAA25?style=for-the-badge&logo=windowsterminal&labelColor=black&logoColor=white)](./installer.sh)
+
 ##### Pop this command in your CLI/shell/terminal to install VividHues.
 ```bash
 $ pip install VividHues
@@ -33,13 +39,9 @@ from VividHues import Clr
 
 ### :bricks: Dependency
 #### _`requirements.txt`_ (Highly Recommended!)
-###### Append the following to your Python packages `requirements.txt`.
+###### Append the following to your Python packages `requirements.txt`...
 ```python
-VividHues  # latest
-
-# or
-
-VividHues>=5.3.0  # this and higher is recommended
+VividHues>=5.3.0
 ```
 ###### Changelog:
 ```py
@@ -95,7 +97,7 @@ print(Clr.pattern("Kenny Oliver", Clr.PURPLE, Clr.CYAN, Clr.LIME))
 
 ### What is color leakage??? :thinking:
 
-**Color leakage is when you have forgotten to use `Clr.RS`/`Clr.RESET`** to reset the formatting after the last character printed to the standard output!
+:point_right: **Color leakage is when you have forgotten to use `Clr.RS`/`Clr.RESET`** :point_left: to reset the formatting after the last character printed to the standard output!
 
 It results in any trailing characters, in the output stream, to continue to have the same formatting.
 
@@ -109,7 +111,7 @@ See the example
 
 ### How do I prevent/solve this? :tada:
 
-#### :a: End <kbd>print()</kbd> with <kbd>Clr.RS</kbd>/<kbd>Clr.RESET</kbd>
+#### :a: End <kbd>print()</kbd> with <kbd>Clr.RS</kbd>/<kbd>Clr.RESET</kbd> &nbsp; — &nbsp; Short 'n' Sweet! :candy:
 ```py
 print(... + Clr.RS)  # recommended!
 
@@ -118,7 +120,7 @@ print(..., Clr.RS)
 print(..., end=Clr.RS+"\n")
 ```
 
-#### :b: Format chunks of code
+#### :b: Format chunks of code &nbsp; — &nbsp; Highly Recommended! :thumbsup:
 ```py
 # start formatting here
 print(Clr.BOLD + Clr.RED, end="")
@@ -174,7 +176,8 @@ Clr.delPrevLine(5)
 
 ## :magic_wand: Magic Functions!!!
 
-##### :bulb: TIP! &nbsp;&nbsp; Magic Functions do not leak color
+> ##### :bulb: TIP!
+> ###### Magic Functions do not leak color (as of `VividHues>=5.3.0`)
 
 #### :game_die: Clr.random()
 
