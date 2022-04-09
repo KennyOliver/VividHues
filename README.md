@@ -24,9 +24,9 @@
 
 > ### :runner: Shortcut!
 > #### _You can install with a Bash script if you'd like!_
+> #### _You can install with a Bash script if you'd like!_
 > 
-> <!-- BEGIN DOWNLOAD SCRIPT ZIP BUTTON -->
-> <!-- END DOWNLOAD SCRIPT ZIP BUTTON -->
+> <a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/installer.sh" download><img src="https://custom-icon-badges.herokuapp.com/badge/-Get%20Installer%20Script-4EAA25?style=for-the-badge&logo=download&logoColor=white&labelColor=black" /></a>
 
 ##### Pop this command in your CLI/shell/terminal to install VividHues.
 ```bash
