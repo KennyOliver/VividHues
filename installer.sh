@@ -11,12 +11,7 @@ BLUE=$(tput setaf 4)
 PURPLE=$(tput setaf 5)
 CYAN=$(tput setaf 6)
 
-# 3 bits therefore only 7 colors max are supported!
-# (RGB from 000 to 111)
-# WHITE=$(tput setaf 7)
-# LIME=$(tput setaf 8)
-# YELLOW=$(tput setaf 9)
-# PINK=$(tput setaf 10)
+# 3 bits => only 7 possible colors!
 
 
 printf "Hi there!\n"
