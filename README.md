@@ -25,7 +25,7 @@
 > ### :runner: Shortcut!
 > #### _You can install with a Bash script if you'd like!_
 > 
-> [![](https://img.shields.io/badge/Download%20Installer%20Script-4EAA25?style=for-the-badge&logo=windowsterminal&labelColor=black&logoColor=white)](./installer.sh)
+> <a href="./installer.sh" download><img src="https://img.shields.io/badge/Download%20Installer%20Script-4EAA25?style=for-the-badge&logo=windowsterminal&labelColor=black&logoColor=white" /></a>
 
 ##### Pop this command in your CLI/shell/terminal to install VividHues.
 ```bash
