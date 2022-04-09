@@ -50,7 +50,7 @@ VividHues>=5.3.0    #  all Magic Functions no longer leak color
 VividHues>=5.4.0    #  Clr.delPrevLine()
 ```
 
-#### _`.github/Dependabot.yml`_ (optional, but needs requirements.txt)
+#### _`.github/Dependabot.yml`_ (optional, but needs `requirements.txt`)
 ###### First, if you don't already have a `.github` directory, create one.
 ###### Then, add a `Dependabot.yml` file to it.
 ```yaml
@@ -82,7 +82,7 @@ RUN pip install VividHues
 
 ```python
 print(Clr.BO + Clr.UL + Clr.rainbow('I love VividHues!'))
-print(f"{Clr.RED}It's got my fave color!{Clr.RS}")
+print(Clr.RED + "It's got my fave color!" + Clr.RS)
 print(f"Soooo {Clr.jazzy('jazzy')}")
 #                          ^^^
 # you'll get an error using "" in f-string interpolations
@@ -181,7 +181,7 @@ Clr.delPrevLine(5)
 <img src="https://user-images.githubusercontent.com/70860732/162318600-f533f919-7119-4027-9f37-4a51da22051d.png" width="40%" align="right" />
 
 > ```python
-> print(Clr.random(string))
+> print(  Clr.random(string)  )
 > ```
 > ###### Paints your string in a random Clr code.
 
@@ -190,7 +190,7 @@ Clr.delPrevLine(5)
 <img src="https://user-images.githubusercontent.com/70860732/162393890-7af20eae-501e-4a2c-aeef-9cdabb01f759.png" width="40%" align="right" />
 
 > ```python
-> print(Clr.jazzy(string))
+> print(  Clr.jazzy(string)  )
 > ```
 > ###### Paints each letter in jazzy random colors! It's a total gamble, that's guaranteed to be ugly! :)
 
@@ -199,9 +199,9 @@ Clr.delPrevLine(5)
 <img src="https://user-images.githubusercontent.com/70860732/162399848-590a5864-6547-418d-9768-40d36dc839c0.png" width="40%" align="right" />
 
 > ```python
-> print(Clr.rainbow(string))
+> print(  Clr.rainbow(string)  )
 > ```
-
+> 
 > ###### Paints your string in a rainbow pattern.
 
 #### :test_tube: Clr.pattern()
@@ -209,7 +209,7 @@ Clr.delPrevLine(5)
 <img src="https://user-images.githubusercontent.com/70860732/162422427-ef00dc83-7b08-4c72-9677-c4ea3b019ff2.png" width="40%" align="right" />
 
 > ```python
-> print(Clr.pattern(string, *color))
+> print(  Clr.pattern(string, *color)  )
 > ```
 > ###### Paint your letters in a repeating pattern, by specifying an unlimited amount of Clr codes!
 
@@ -222,11 +222,11 @@ Clr.delPrevLine(5)
 | Font Colors             | :star:            | :star:     | :star:     |
 | Background/Highlight    | :crossed_fingers: | :star:     | :star:     |
 | Bold/Underline          | :star:            |            | :star:     |
-| Lightweight             | :star:            |            |            |
-| Auto-Reset              | :crossed_fingers: | :star:     |            |
-| Cursor-Positioning      |                   | :star:     |            |
+| Most Lightweight        | :star:            |            |            |
+| Auto-Reset              | :star:            | :star:     | :star:     |
+| Cursor Positioning      |                   | :star:     |            |
 | Special/Unique Features | :star:            |            | :star:     |
-| <b>Total</b>            | <b>5/8</b>        | <b>5/8</b> | <b>5/8</b> |
+| <b>Total</b>            | <b>6/8</b>        | <b>5/8</b> | <b>6/8</b> |
 
 Potentially, VividHues will have more features than the alternatives if they are implemented.
 
