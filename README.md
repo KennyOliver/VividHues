@@ -26,9 +26,17 @@
 
 ### :zap: _Instant Installer + Updater_
 
-###### :point_down: _Make sure you've got Git Bash installed!_
-
 <a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/install_vividhues.sh" download><img src="https://custom-icon-badges.herokuapp.com/badge/-Instant%20Installer-4EAA25?style=for-the-badge&logo=download&logoColor=white&labelColor=black" /></a>
+
+###### :memo: Note: This requires Bash to be installed on your OS.
+
+Once you've downloaded `install_vividhues.sh`...
+* Run the command `bash install_vividhues.sh` in your shell/CLI
+
+**Or...**
+* Double click the `install_vividhues.sh` file
+
+> (For [replit.com](https://replit.com), you first need to upload the script to your files, then run `bash install_vividhues.sh` in the _**shell**_).
 
 > <details>
 > <summary>😴 <i><b>Tedious manual instructions in here!</i></b></summary>
@@ -119,7 +127,7 @@ It results in any trailing characters, in the output stream, to continue to have
 **This is an intentional feature,** because it allows for the formatting of entire chunks of code in one go.
 See the example
 
-> #### :pencil: Note!
+> #### :memo: Note!
 > As of `VividHues>=5.3.0`, <big>ALL</big> magic functions do not leak color.
 > 
 > Previously, it was only `Clr.random()`!
@@ -166,7 +174,7 @@ print(Clr.RS, end="")
 ###### <big>Formatter:</big> &nbsp;&nbsp;&nbsp;&nbsp; UNDERLINE, UL, BOLD, BO
 ###### <big>Reset:</big> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; RESET, RS
 
-> ##### :pencil: Note!
+> ##### :memo: Note!
 > ###### In order to make your life easy, when reading the documentation,
 > ###### Your import statement should be the following... :point_down:
 > `from VividHues import Clr` so that you can use `Clr.___`
