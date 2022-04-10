@@ -29,7 +29,7 @@ printf "
 printf '%.0s-' {1..65}
 printf "\n\n"
 
-printf "VividHues & Installer  —  Kenneth Oliver ©2022\n\n"
+printf "${PURPLE}VividHues Instant Installer  —  Kenneth Oliver ©2022${NORMAL}\n\n"
 sleep .5
 
 printf "Hi there! 👋\r"
