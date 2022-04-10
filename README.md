@@ -30,7 +30,7 @@
 
 ###### :memo: Note: This requires Bash to be installed on your OS.
 
-Once you've downloaded `install_vividhues.sh`...
+**Once you've downloaded `install_vividhues.sh`...**
 * Run the command `bash install_vividhues.sh` in your shell/CLI
 
 **Or...**
