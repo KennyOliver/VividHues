@@ -22,26 +22,35 @@
 
 ## :hammer_and_wrench: Official Installation
 
-> ### :wink: Shortcut &nbsp; — &nbsp; _Instant Installer + Updater_
-> ###### :point_down: _You can install with the Bash script if you'd like!_
+<img src="https://user-images.githubusercontent.com/70860732/162608870-af918cda-0863-4891-8da8-fc9a62bfd8d8.png" width="50%" align="right" />
+
+### :zap: _Instant Installer + Updater_
+
+###### :point_down: _Make sure you've got Git Bash installed!_
+
+<a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/vividhues_installer.sh" download><img src="https://custom-icon-badges.herokuapp.com/badge/-Instant%20Installer-4EAA25?style=for-the-badge&logo=download&logoColor=white&labelColor=black" /></a>
+
+> <details>
+> <summary>😴 <i><b>Tedious manual instructions in here!</i></b></summary>
 > 
-> <a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/installer.sh" download><img src="https://custom-icon-badges.herokuapp.com/badge/-Get%20Installer%20Script-4EAA25?style=for-the-badge&logo=download&logoColor=white&labelColor=black" /></a>
+> ##### Pop this command in your CLI/shell/terminal to install VividHues.
+>```bash
+>$ pip install VividHues
+>```
+> 
+> > #### :bulb: Tip
+> > ###### Use this command to update
+> > ```bash
+> > pip install --upgrade VividHues
+> > ```
 
-##### Pop this command in your CLI/shell/terminal to install VividHues.
-```bash
-$ pip install VividHues
-```
 
-> #### :bulb: Tip
-> ###### Use this command to update
-> ```bash
-> pip install --upgrade VividHues
-> ```
-
+## :boat: Importing
 ##### Stick this wherever you need VividHues!
 ```py
 from VividHues import Clr
 ```
+</details>
 
 ### :bricks: Dependency
 #### _`requirements.txt`_ (Highly Recommended!)

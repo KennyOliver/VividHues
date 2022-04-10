@@ -20,14 +20,18 @@ printf "
 ░╚████╔╝░██║░╚████╔╝░██║██║░░██║██╔══██║██║░░░██║██╔══╝░░░╚═══██╗
 ░░╚██╔╝░░██║░░╚██╔╝░░██║██████╔╝██║░░██║╚██████╔╝███████╗██████╔╝
 ░░░╚═╝░░░╚═╝░░░╚═╝░░░╚═╝╚═════╝░╚═╝░░╚═╝░╚═════╝░╚══════╝╚═════╝░
+█▄▀ █▀▀ █▄ █ █▄ █ █▄█ █▀█ █   █ █ █ █▀▀ █▀█
+█ █ ██▄ █ ▀█ █ ▀█  █  █▄█ █▄▄ █ ▀▄▀ ██▄ █▀▄
 \n"
 
-printf "VividHues — Kenneth Oliver ©2022\n\n"
-printf "* This is the VividHues Installer *\n\n"
+printf '%.0s-' {1..65}
+printf "\n\n"
+
+printf "VividHues & Installer  —  Kenneth Oliver ©2022\n\n"
 sleep .5
 
-printf "Hi there! 👋\n"
-sleep .5
+printf "Hi there! 👋\r"
+sleep 1.4
 
 pip show VividHues 1>/dev/null
 if [ $? == 0 ]; then
@@ -40,35 +44,35 @@ else
     printf "${CYAN}Would you like to install VividHues?\n"
     updatingPackage="False"
 fi
-
-sleep .5
-
 read -p "    (y/n)  -->    ${NORMAL}" choice
+
 # choice=${choice,,}  # all lowercase
 printf "${CYAN}👉 You chose "
 case "$choice" in 
   y|Y ) printf "yes";;
   n|N ) printf "no";;
-  * ) printf "an invalid choice!";;
+  * ) printf "an invalid choice";;
 esac
-printf "${NORMAL}\n\n"
+printf "!${NORMAL}\n\n"
 sleep .5
 
-if [ $updatingPackage == "True" ]; then
-    printf "Looks like we're updating VividHues!!! 👍\n\n"
-    printf "$BLUE"
-    pip install --upgrade VividHues --disable-pip-version-check
-    printf "$NORMAL"
-else
-    printf "Looks like we're installing VividHues!!! 👍\n\n"
-    printf "$BLUE"
-    pip install VividHues --disable-pip-version-check
-    printf "$NORMAL"
+if [[ $choice == y* ]]; then
+    if [ $updatingPackage == "True" ]; then
+        printf "Looks like we're updating VividHues!!! 👍\n\n"
+        printf "$BLUE"
+        pip install --upgrade VividHues --disable-pip-version-check
+        printf "$NORMAL"
+    else
+        printf "Looks like we're installing VividHues!!! 👍\n\n"
+        printf "$BLUE"
+        pip install VividHues --disable-pip-version-check
+        printf "$NORMAL"
+    fi
+    printf "\n"
+    printf "${ORANGE}Success! Have colorful fun! 🌈 📦${NORMAL}\n"
+    printf "\n"
+    sleep 2
 fi
-printf "\n"
-printf "${ORANGE}Success! Have colorful fun! 🌈 📦${NORMAL}\n"
-printf "\n"
-sleep 2
 
 printf "Press  enter  to exit!\n"
 read pressEnterToExit  # unused variable, but exists for enter to exit
