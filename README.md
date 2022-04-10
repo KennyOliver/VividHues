@@ -22,13 +22,13 @@
 
 ## :hammer_and_wrench: Official Installation
 
-<img src="https://user-images.githubusercontent.com/70860732/162608870-af918cda-0863-4891-8da8-fc9a62bfd8d8.png" width="50%" align="right" />
+<img src="https://user-images.githubusercontent.com/70860732/162609591-28a1a343-26b7-4b7b-ac71-0acda02a843c.png" width="50%" align="right" />
 
 ### :zap: _Instant Installer + Updater_
 
 ###### :point_down: _Make sure you've got Git Bash installed!_
 
-<a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/vividhues_instant_installer.sh" download><img src="https://custom-icon-badges.herokuapp.com/badge/-Instant%20Installer-4EAA25?style=for-the-badge&logo=download&logoColor=white&labelColor=black" /></a>
+<a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/vividhues_installer.sh" download><img src="https://custom-icon-badges.herokuapp.com/badge/-Instant%20Installer-4EAA25?style=for-the-badge&logo=download&logoColor=white&labelColor=black" /></a>
 
 > <details>
 > <summary>😴 <i><b>Tedious manual instructions in here!</i></b></summary>
