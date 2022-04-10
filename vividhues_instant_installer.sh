@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Kenneth Oliver (c)2022
+
 
 NORMAL=$(tput sgr0)
 
