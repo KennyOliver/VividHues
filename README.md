@@ -28,7 +28,7 @@
 
 ###### :point_down: _Make sure you've got Git Bash installed!_
 
-<a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/vividhues_installer.sh" download><img src="https://custom-icon-badges.herokuapp.com/badge/-Instant%20Installer-4EAA25?style=for-the-badge&logo=download&logoColor=white&labelColor=black" /></a>
+<a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/install_vividhues.sh" download><img src="https://custom-icon-badges.herokuapp.com/badge/-Instant%20Installer-4EAA25?style=for-the-badge&logo=download&logoColor=white&labelColor=black" /></a>
 
 > <details>
 > <summary>😴 <i><b>Tedious manual instructions in here!</i></b></summary>
