@@ -22,38 +22,53 @@
 
 ## :hammer_and_wrench: Official Installation
 
-<img src="https://user-images.githubusercontent.com/70860732/162611796-8c0e6e1e-9772-4f40-98ad-8fa2f4282b83.png" width="50%" align="right" />
-
 ### :zap: _Instant Installer + Updater_
 
-<a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/install_vividhues.sh" download><img src="https://custom-icon-badges.herokuapp.com/badge/-Instant%20Installer-4EAA25?style=for-the-badge&logo=download&logoColor=white&labelColor=black" /></a>
+<img src="https://user-images.githubusercontent.com/70860732/162640075-30ac2c3f-19f5-432e-816b-cf281c9636f8.png" width="70%" />
 
-###### :memo: Note: This requires Bash to be installed on your OS.
+<kbd><a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/install_vividhues.sh" download><img src="https://custom-icon-badges.herokuapp.com/badge/-Instant%20Installer-4EAA25?style=for-the-badge&logo=download&logoColor=white&labelColor=black" /></a></kbd>
 
-**Once you've downloaded `install_vividhues.sh`...**
-* Run the command `bash install_vividhues.sh` in your shell/CLI
+#### :page_with_curl: Instant Installer &nbsp; — &nbsp; Instructions
 
-**Or...**
-* Double click the `install_vividhues.sh` file
+##### **Once you've downloaded `install_vividhues.sh`...**
+###### Run the command `bash install_vividhues.sh` in your shell/CLI
+###### (Or... double click the `install_vividhues.sh` file)
 
-> (For [replit.com](https://replit.com), you first need to upload the script to your files, then run `bash install_vividhues.sh` in the _**shell**_).
-
-> <details>
-> <summary>😴 <i><b>Tedious manual instructions in here!</i></b></summary>
+> :memo: **Note!**
 > 
-> ##### Pop this command in your CLI/shell/terminal to install VividHues.
->```bash
->$ pip install VividHues
->```
-> 
-> > #### :bulb: Tip
-> > ###### Use this command to update
-> > ```bash
-> > pip install --upgrade VividHues
-> > ```
+> This requires Bash to be installed on your OS.
+> Git Bash or WSL are two of many to pick from!
+
+#### :cyclone: Replit Installation
+
+<details>
+<summary>👉 <i><b>Replit installation instructions in here!</i></b> 👈</summary>
+
+1. Upload the installer script to your project's file system
+<img src="https://user-images.githubusercontent.com/70860732/162637390-af2be82f-929a-4053-a5f5-ce788bf7f9c4.png" /> 
+
+2. Run `bash install_vividhues.sh` in the _**shell**_
+<img src="https://user-images.githubusercontent.com/70860732/162637572-f096ccf2-2ff3-4fee-8028-2432fc31806b.png" /> 
+</details>
+
+#### :shell: Manual Shell Installation
+
+<details>
+<summary>👉 <i><b>Manual installation instructions in here!</i></b> 👈</summary>
+
+##### Pop this command in your CLI/shell/terminal to install VividHues.
+```bash
+$ pip install VividHues
+```
+ 
+> #### :bulb: Tip
+> ###### Use this command to update
+> ```bash
+> pip install --upgrade VividHues
+> ```
 
 
-## :boat: Importing
+## :ship: Importing
 ##### Stick this wherever you need VividHues!
 ```py
 from VividHues import Clr

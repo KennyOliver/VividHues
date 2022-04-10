@@ -8,41 +8,41 @@ NORMAL=$(tput sgr0)
 BLACK=$(tput setaf 0)
 RED=$(tput setaf 1)
 GREEN=$(tput setaf 2)
-ORANGE=$(tput setaf 3)
+ORANGE=$(tput setaf 3)  # appears yellow (at least on Windows)
 BLUE=$(tput setaf 4)
 PURPLE=$(tput setaf 5)
 CYAN=$(tput setaf 6)
 
 # 3 bits => only 7 possible colors!
 
-printf "
-██╗░░░██╗██╗██╗░░░██╗██╗██████╗░██╗░░██╗██╗░░░██╗███████╗░██████╗
-██║░░░██║██║██║░░░██║██║██╔══██╗██║░░██║██║░░░██║██╔════╝██╔════╝
-╚██╗░██╔╝██║╚██╗░██╔╝██║██║░░██║███████║██║░░░██║█████╗░░╚█████╗░
-░╚████╔╝░██║░╚████╔╝░██║██║░░██║██╔══██║██║░░░██║██╔══╝░░░╚═══██╗
-░░╚██╔╝░░██║░░╚██╔╝░░██║██████╔╝██║░░██║╚██████╔╝███████╗██████╔╝
-░░░╚═╝░░░╚═╝░░░╚═╝░░░╚═╝╚═════╝░╚═╝░░╚═╝░╚═════╝░╚══════╝╚═════╝░
+printf "${CYAN}\
+${RED}██╗░░░██╗${ORANGE}██╗${GREEN}██╗░░░██╗${CYAN}██╗${BLUE}██████╗░${PURPLE}██╗░░██╗${RED}██╗░░░██╗${ORANGE}███████╗${GREEN}░██████╗
+${RED}██║░░░██║${ORANGE}██║${GREEN}██║░░░██║${CYAN}██║${BLUE}██╔══██╗${PURPLE}██║░░██║${RED}██║░░░██║${ORANGE}██╔════╝${GREEN}██╔════╝
+${RED}╚██╗░██╔╝${ORANGE}██║${GREEN}╚██╗░██╔╝${CYAN}██║${BLUE}██║░░██║${PURPLE}███████║${RED}██║░░░██║${ORANGE}█████╗░░${GREEN}╚█████╗░
+${RED}░╚████╔╝░${ORANGE}██║${GREEN}░╚████╔╝░${CYAN}██║${BLUE}██║░░██║${PURPLE}██╔══██║${RED}██║░░░██║${ORANGE}██╔══╝░░${GREEN}░╚═══██╗
+${RED}░░╚██╔╝░░${ORANGE}██║${GREEN}░░╚██╔╝░░${CYAN}██║${BLUE}██████╔╝${PURPLE}██║░░██║${RED}╚██████╔╝${ORANGE}███████╗${GREEN}██████╔╝
+${RED}░░░╚═╝░░░${ORANGE}╚═╝${GREEN}░░░╚═╝░░░${CYAN}╚═╝${BLUE}╚═════╝░${PURPLE}╚═╝░░╚═╝${RED}░╚═════╝░${ORANGE}╚══════╝${GREEN}╚═════╝░${NORMAL}
 █▄▀ █▀▀ █▄ █ █▄ █ █▄█  █▀█ █   █ █ █ █▀▀ █▀█
 █ █ ██▄ █ ▀█ █ ▀█  █   █▄█ █▄▄ █ ▀▄▀ ██▄ █▀▄
 \n"
 
-printf '%.0s-' {1..65}
+printf '%.0s—' {1..65}
 printf "\n\n"
 
 printf "${PURPLE}VividHues Instant Installer  —  Kenneth Oliver ©2022${NORMAL}\n\n"
 sleep .5
 
 printf "Hi there! 👋\r"
-sleep 1.4
+sleep 1
 
 pip show VividHues 1>/dev/null
 if [ $? == 0 ]; then
     # python -c "import VividHues; print(VividHues.__version__)"
-    printf "VividHues is already installed!\n"
+    printf "VividHues is already installed! :P\n"
     printf "${CYAN}Would you like to update VividHues?\n"
     updatingPackage="True"
 else
-    printf "VividHues isn't installed yet!\n"
+    printf "VividHues isn't installed yet! :o\n"
     printf "${CYAN}Would you like to install VividHues?\n"
     updatingPackage="False"
 fi
@@ -60,9 +60,11 @@ sleep .5
 
 if [[ $choice == y* ]]; then
     if [ $updatingPackage == "True" ]; then
-        printf "Looks like we're updating VividHues!!! 👍\n\n"
+        printf "Looks like we're updating VividHues!!! 👍\n"
         printf "$BLUE"
-        pip install --upgrade VividHues --disable-pip-version-check
+        pip install --upgrade VividHues --disable-pip-version-check &>/dev/null
+        # &>/dev/null  is used to redirect stdout to null
+        #              so that output is "hidden"
         printf "$NORMAL"
     else
         printf "Looks like we're installing VividHues!!! 👍\n\n"
@@ -71,6 +73,8 @@ if [[ $choice == y* ]]; then
         printf "$NORMAL"
     fi
     printf "\n"
+    printf '%.0s—' {1..65}
+    printf "\n\n"
     printf "${ORANGE}Success! Have colorful fun! 🌈 📦${NORMAL}\n"
     printf "\n"
     sleep 2
