@@ -22,7 +22,7 @@
 
 ## :hammer_and_wrench: Official Installation
 
-<img src="https://user-images.githubusercontent.com/70860732/162609591-28a1a343-26b7-4b7b-ac71-0acda02a843c.png" width="50%" align="right" />
+<img src="https://user-images.githubusercontent.com/70860732/162611796-8c0e6e1e-9772-4f40-98ad-8fa2f4282b83.png" width="50%" align="right" />
 
 ### :zap: _Instant Installer + Updater_
 
