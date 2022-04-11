@@ -7,9 +7,18 @@ Setup file for VividHues
 import codecs
 import os.path
 
+def read(rel_path):
+    here = os.path.abspath(os.path.dirname(__file__))
+    with codecs.open(os.path.join(here, rel_path), 'r') as fp:
+        return fp.read()
 
-from VividHues import Info
-VERSION = Info.VERSION
+def get_version(rel_path):
+    for line in read(rel_path).splitlines():
+        if line.startswith('__version__'):
+            delim = '"' if '"' in line else "'"
+            return line.split(delim)[1]
+    else:
+        raise RuntimeError("Unable to find version string.")
 
 
 NAME = "VividHues"
@@ -20,7 +29,7 @@ setup(
     author="Kenneth Oliver",
     author_email="kenny_oliver@icloud.com",
     packages=[NAME],
-    version=VERSION,
+    version=get_version("VividHues/__init__.py"),
     license="AGPL-3.0",
     description=f"{NAME}: Super light Python string formatter!",
     long_description=open("README.md").read(),
