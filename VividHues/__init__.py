@@ -11,8 +11,8 @@ __pypi__      = "https://pypi.org/project/VividHues/"
 __name__      = "VividHues"
 
 
-from setup import Info
-__version__ = Info.VERSION
+class Info:
+    VERSION = "5.6.20"
 
 
 class Clr:

@@ -8,8 +8,8 @@ import codecs
 import os.path
 
 
-class Info:
-    VERSION = "5.6.18"
+from VividHues import Info
+VERSION = Info.VERSION
 
 
 NAME = "VividHues"
@@ -20,7 +20,7 @@ setup(
     author="Kenneth Oliver",
     author_email="kenny_oliver@icloud.com",
     packages=[NAME],
-    version=Info.VERSION,
+    version=VERSION,
     license="AGPL-3.0",
     description=f"{NAME}: Super light Python string formatter!",
     long_description=open("README.md").read(),
