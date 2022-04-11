@@ -9,7 +9,7 @@ __homepage__  = "https://github.com/KennyOliver/VividHues"
 __package__   = "VividHues"
 __pypi__      = "https://pypi.org/project/VividHues/"
 __name__      = "VividHues"
-__version__   = "5.6.21"
+__version__   = "5.8.22"
 
 
 class Clr:
