@@ -11,6 +11,10 @@ __pypi__      = "https://pypi.org/project/VividHues/"
 __name__      = "VividHues"
 
 
+from setup import Info
+__version__ = Info.VERSION
+
+
 class Clr:
     BLACK  = "\033[30m"
     RED    = "\033[31m"

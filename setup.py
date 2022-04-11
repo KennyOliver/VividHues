@@ -8,6 +8,10 @@ import codecs
 import os.path
 
 
+class Info:
+    VERSION = "5.6.15"
+
+
 NAME = "VividHues"
 print("\033[93m" + f"Installing {NAME}..." + "\033[0m")
 setup(
@@ -16,7 +20,7 @@ setup(
     author="Kenneth Oliver",
     author_email="kenny_oliver@icloud.com",
     packages=[NAME],
-    version="5.6.13",
+    version=Info.VERSION,
     license="AGPL-3.0",
     description=f"{NAME}: Super light Python string formatter!",
     long_description=open("README.md").read(),

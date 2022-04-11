@@ -3,6 +3,11 @@
 # Kenneth Oliver (c)2022
 
 
+alert_noise() {
+    printf "\a"
+}
+
+
 NORMAL=$(tput sgr0)
 
 # 3 bits => only 7 possible colors!
@@ -13,6 +18,9 @@ ORANGE=$(tput setaf 3)  # appears yellow (at least on Windows)
 BLUE=$(tput setaf 4)
 PURPLE=$(tput setaf 5)
 CYAN=$(tput setaf 6)
+
+
+alert_noise
 
 
 printf "${CYAN}\
@@ -83,6 +91,7 @@ if [[ $choice == y* ]]; then
     printf "\n\n"
     printf "${ORANGE}Success! Have colorful fun! 🌈 📦${NORMAL}\n"
     printf "\n"
+    alert_noise
     sleep 2
 fi
 
@@ -90,4 +99,5 @@ fi
 printf "Press  enter  to exit!\n"
 read -r pressEnterToExit  # unused variable, but exists for enter to exit
 printf "Bye! 👋\n"
+alert_noise
 sleep 1.5
