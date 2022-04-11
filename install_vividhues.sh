@@ -46,7 +46,7 @@ else
     printf "${CYAN}Would you like to install VividHues?\n"
     updatingPackage="False"
 fi
-read -p "    (y/n)  -->    ${NORMAL}" choice
+read -p -r "    (y/n)  -->    ${NORMAL}" choice
 
 # choice=${choice,,}  # all lowercase
 printf "${CYAN}👉 You chose "
@@ -81,6 +81,6 @@ if [[ $choice == y* ]]; then
 fi
 
 printf "Press  enter  to exit!\n"
-read pressEnterToExit  # unused variable, but exists for enter to exit
+read -r pressEnterToExit  # unused variable, but exists for enter to exit
 printf "Bye! 👋\n"
 sleep 1.5
