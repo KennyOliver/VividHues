@@ -9,7 +9,7 @@ import os.path
 
 
 class Info:
-    VERSION = "5.6.17"
+    VERSION = "5.6.18"
 
 
 NAME = "VividHues"
