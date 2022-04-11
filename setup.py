@@ -18,7 +18,7 @@ setup(
     packages=[NAME],
     version="5.6.13",
     license="AGPL-3.0",
-    description=f"{NAME}: Super light Python string formatter! 🌈 📦",
+    description=f"{NAME}: Super light Python string formatter!",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     classifiers=[

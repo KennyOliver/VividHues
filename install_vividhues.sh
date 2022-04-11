@@ -5,6 +5,7 @@
 
 NORMAL=$(tput sgr0)
 
+# 3 bits => only 7 possible colors!
 BLACK=$(tput setaf 0)
 RED=$(tput setaf 1)
 GREEN=$(tput setaf 2)
@@ -13,7 +14,6 @@ BLUE=$(tput setaf 4)
 PURPLE=$(tput setaf 5)
 CYAN=$(tput setaf 6)
 
-# 3 bits => only 7 possible colors!
 
 printf "${CYAN}\
 ${RED}██╗░░░██╗${ORANGE}██╗${GREEN}██╗░░░██╗${CYAN}██╗${BLUE}██████╗░${PURPLE}██╗░░██╗${RED}██╗░░░██╗${ORANGE}███████╗${GREEN}░██████╗
@@ -35,6 +35,9 @@ sleep .5
 printf "Hi there! 👋\r"
 sleep 1
 
+
+# (the below) cannot be part of if statement,
+#     otherwise it thinks VividHues is never installed
 pip show VividHues 1>/dev/null
 if [ $? == 0 ]; then
     # python -c "import VividHues; print(VividHues.__version__)"
@@ -46,9 +49,11 @@ else
     printf "${CYAN}Would you like to install VividHues?\n"
     updatingPackage="False"
 fi
-read -p -r "    (y/n)  -->    ${NORMAL}" choice
+printf "    (y/n)  -->    ${NORMAL}"
+read -r choice
+choice=${choice,,}  # all lowercase
 
-# choice=${choice,,}  # all lowercase
+
 printf "${CYAN}👉 You chose "
 case "$choice" in 
   y|Y ) printf "yes";;
@@ -57,6 +62,7 @@ case "$choice" in
 esac
 printf "!${NORMAL}\n\n"
 sleep .5
+
 
 if [[ $choice == y* ]]; then
     if [ $updatingPackage == "True" ]; then
@@ -79,6 +85,7 @@ if [[ $choice == y* ]]; then
     printf "\n"
     sleep 2
 fi
+
 
 printf "Press  enter  to exit!\n"
 read -r pressEnterToExit  # unused variable, but exists for enter to exit
