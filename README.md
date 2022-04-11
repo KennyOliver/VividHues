@@ -1,22 +1,25 @@
 # VividHues :rainbow: :package:
 
+<!-- <img src="https://user-images.githubusercontent.com/70860732/162698403-39fc7fce-476d-49df-a868-9be277917cc1.png" /> -->
+<img src="https://user-images.githubusercontent.com/70860732/162701615-714ee886-3541-4899-b96c-c34122b16693.png" />
+
 [![VividHues](https://github.com/KennyOliver/VividHues/actions/workflows/python-publish.yml/badge.svg)](https://github.com/KennyOliver/VividHues/actions/workflows/python-publish.yml)
 [![Downloads](https://static.pepy.tech/personalized-badge/vividhues?period=total&units=international_system&left_color=gray&right_color=blue&left_text=Total%20Downloads)](https://pepy.tech/project/vividhues)
 [![Downloads](https://static.pepy.tech/personalized-badge/vividhues?period=month&units=international_system&left_color=gray&right_color=blue&left_text=Past%20Month)](https://pepy.tech/project/vividhues)
 [![Downloads](https://static.pepy.tech/personalized-badge/vividhues?period=week&units=international_system&left_color=gray&right_color=blue&left_text=Past%20Week)](https://pepy.tech/project/vividhues)
-
+<br />
 ![CodeFactor](https://www.codefactor.io/repository/github/KennyOliver/vividHues/badge?style=for-the-badge)
 ![Latest SemVer](https://img.shields.io/github/v/tag/KennyOliver/vividHues?label=version&sort=semver&style=for-the-badge)
 ![Repo Size](https://img.shields.io/github/repo-size/KennyOliver/vividHues?style=for-the-badge)
 ![Total Lines](https://img.shields.io/tokei/lines/github/KennyOliver/vividHues?style=for-the-badge)
 
-
-**<big>VividHues:</big> &nbsp;&nbsp; super lite package for colored strings in Python!**
-
 <a href="https://pypi.org/project/VividHues/"><img src="https://img.shields.io/badge/PyPi-3775A9?style=for-the-badge&logo=pypi&logoColor=white" /></a>
 <a href="https://test.pypi.org/project/VividHues/"><img src="https://img.shields.io/badge/Test%20PyPi-E8C541?style=for-the-badge&logo=pypi&logoColor=white" /></a>
 
-<img src="https://user-images.githubusercontent.com/70860732/162396475-b2c511af-0ddd-4e85-8d17-b62b3d732e78.png" width="50%" align="none" />
+
+**<big>VividHues:</big> &nbsp;&nbsp;&nbsp; Super light Python string formatter! &nbsp; 🌈 📦**
+
+<big>&nbsp; :point_right: &nbsp; </big><kbd><a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/install_vividhues.sh" download><img src="https://custom-icon-badges.herokuapp.com/badge/-Instant%20Installer-blue?style=for-the-badge&logo=download&logoColor=white&labelColor=303030" /></a></kbd><big> &nbsp; :point_left:</big>
 
 ---
 
@@ -26,7 +29,7 @@
 
 <img src="https://user-images.githubusercontent.com/70860732/162640075-30ac2c3f-19f5-432e-816b-cf281c9636f8.png" width="70%" />
 
-<kbd><a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/install_vividhues.sh" download><img src="https://custom-icon-badges.herokuapp.com/badge/-Instant%20Installer-4EAA25?style=for-the-badge&logo=download&logoColor=white&labelColor=black" /></a></kbd>
+<big>&nbsp; :point_right: &nbsp; </big><kbd><a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/install_vividhues.sh" download><img src="https://custom-icon-badges.herokuapp.com/badge/-Instant%20Installer-blue?style=for-the-badge&logo=download&logoColor=white&labelColor=303030" /></a></kbd><big> &nbsp; :point_left:</big>
 
 #### :page_with_curl: Instant Installer &nbsp; — &nbsp; Instructions
 
@@ -75,7 +78,9 @@ from VividHues import Clr
 ```
 </details>
 
-### :bricks: Dependency
+---
+
+## :bricks: Dependency
 #### _`requirements.txt`_ (Highly Recommended!)
 ###### Append the following to your Python packages `requirements.txt`...
 ```python

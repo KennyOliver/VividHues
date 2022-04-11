@@ -16,9 +16,9 @@ setup(
     author="Kenneth Oliver",
     author_email="kenny_oliver@icloud.com",
     packages=[NAME],
-    version="5.6.9",
+    version="5.6.13",
     license="AGPL-3.0",
-    description=f"{NAME}: super lite package for colored strings in Python!",
+    description=f"{NAME}: Super light Python string formatter! 🌈 📦",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     classifiers=[
