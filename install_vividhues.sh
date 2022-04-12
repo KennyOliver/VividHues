@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Kenneth Oliver (c)2022
+# Kenneth Oliver ©2022
 
 
 alert_noise() {

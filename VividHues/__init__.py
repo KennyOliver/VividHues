@@ -3,12 +3,35 @@ import random
 os.system("")  # allows colours to be displayed in the CLI
 
 
+def dunders() -> None:
+    """ prints out the available dunders """
+
+    print("—" * 50)
+    print(
+        f"""
+        • VividHues Dunders Guide •
+        
+        {Clr.RED}__author__   :    author 
+        {Clr.ORANGE}__desc__     :    description
+        {Clr.YELLOW}__homepage__ :    GitHub URL
+        {Clr.LIME}__package__  :    package name
+        {Clr.CYAN}__pypi__     :    PyPi URL
+        {Clr.BLUE}__name__     :    package name
+        {Clr.PURPLE}__version__  :    current version{Clr.RS}
+        
+        print(VividHues.dunders())  to access this again!
+
+        Read the docs for more:
+        https://github.com/KennyOliver/VividHues
+        """
+        )
+    print("—" * 50)
+
 __author__    = "Kenneth Oliver ©2022"
 __desc__      = "Super lite package for colored strings in Python! 🌈 📦"
 __homepage__  = "https://github.com/KennyOliver/VividHues"
 __package__   = "VividHues"
 __pypi__      = "https://pypi.org/project/VividHues/"
-__name__      = "VividHues"
 __version__   = "5.8.22"
 
 

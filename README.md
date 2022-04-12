@@ -267,7 +267,7 @@ Clr.delPrevLine(5)
 
 ## :muscle: How VividHues stacks up...
 | Feature | [VividHues](https://pypi.org/project/VividHues/) | [Colorama](https://pypi.org/project/colorama/) | [termcolor](https://pypi.org/project/termcolor/) |
-| :--------------------:  | :---------------: | :------:   | :--------: |
+| :---------------------: | :---------------: | :--------: | :--------: |
 | Simplicity/Abstraction  | :star:            | :star:     | :star:     |
 | Font Colors             | :star:            | :star:     | :star:     |
 | Background/Highlight    | :crossed_fingers: | :star:     | :star:     |
@@ -284,28 +284,37 @@ ___
 
 ## :mag_right: Getting Package Info
 
+VividHues comes with a variety of 'dunder' values that you can check out.
+
+An important example is checking out the current version: `VividHues.__version__`
+
+> ##### :memo: Note!
+> ###### The import is different this time!
+> 
+> ```py
+> import VividHues
+> ```
+
+#### Dunders Command
+
+You can use this command to find out all the possible dunders.
+
 ```py
-import VividHues  # different import this time!
-
-
-print(VividHues.__author__)
-# Kenneth Oliver ©2022
-
-print(VividHues.__desc__)
-# Super lite package for colored strings in Python! 🌈 📦
-
-print(VividHues.__homepage__)
-# https://github.com/KennyOliver/VividHues
-
-print(VividHues.__package__)
-# VividHues
-
-print(VividHues.__pypi__)
-# https://pypi.org/project/VividHues/
-
-print(VividHues.__name__)
-# VividHues
+VividHues.dunders()
 ```
 
+<img src="https://user-images.githubusercontent.com/70860732/162913000-6efc441c-42e7-43d7-8ffe-217c49bdc96b.png" />
+
+#### Dunder Values
+
+| dunder | what it does | expected output |
+| :----: | :----------: | :-------------: |
+| `__author__`   | author          | "Kenneth Oliver ©2022" |
+| `__desc__`     | description     | "Super light Python string formatter! 🌈 📦" |
+| `__homepage__` | GitHub URL      | "https://github.com/KennyOliver/VividHues" |
+| `__package__`  | package name    | "VividHues" |
+| `__pypi__`     | Pypi URL        | "https://pypi.org/project/VividHues/" |
+| `__version__`  | current version | (whatever the current version is!) |
+
 ---
-Kenny Oliver ©2021
+Kenny Oliver ©2022
