@@ -38,8 +38,7 @@
 #### :page_with_curl: Instant Installer &nbsp; — &nbsp; Instructions
 
 ##### **Once you've downloaded `install_vividhues.sh`...**
-###### Run the command `bash install_vividhues.sh` in your shell/CLI
-###### (Or... double click the `install_vividhues.sh` file)
+###### Run the command `bash install_vividhues.sh` in your shell/CLI. (Or... double click the `install_vividhues.sh` file)
 
 > :memo: **Note!**
 > 
@@ -49,7 +48,7 @@
 #### :cyclone: Replit Installation
 
 <details>
-<summary>👉 <i><b>Replit installation instructions in here!</i></b> 👈</summary>
+<summary>👉 <i><b>Replit instructions in here!</i></b> 👈</summary>
 
 1. Upload the installer script to your project's file system
 <img src="https://user-images.githubusercontent.com/70860732/162637390-af2be82f-929a-4053-a5f5-ce788bf7f9c4.png" /> 
@@ -61,7 +60,7 @@
 #### :shell: Manual Shell Installation
 
 <details>
-<summary>👉 <i><b>Manual installation instructions in here!</i></b> 👈</summary>
+<summary>👉 <i><b>Manual instructions in here!</i></b> 👈</summary>
 
 ##### Pop this command in your CLI/shell/terminal to install VividHues.
 ```bash
@@ -297,7 +296,7 @@ An important example is checking out the current version: `VividHues.__version__
 
 #### Dunders Command
 
-You can use this command to find out all the possible dunders.
+You can use the following command to find out all the possible dunders!
 
 ```py
 VividHues.dunders()
@@ -307,7 +306,7 @@ VividHues.dunders()
 
 #### Dunder Values
 
-| dunder | what it does | expected output |
+| Dunder | What It Does | Expected Output |
 | :----: | :----------: | :-------------: |
 | `__author__`   | author          | "Kenneth Oliver ©2022" |
 | `__desc__`     | description     | "Super light Python string formatter! 🌈 📦" |
