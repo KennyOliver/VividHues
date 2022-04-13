@@ -84,21 +84,21 @@ from VividHues import Clr
 ---
 
 ## :bricks: Dependency
-#### _`requirements.txt`_ (Highly Recommended!)
+#### _`requirements.txt`_ &nbsp;&nbsp; _(Highly Recommended!)_
 ###### Append the following to your Python packages `requirements.txt`...
 ```python
 VividHues>=5.3.0
 ```
-###### Changelog:
-```py
-VividHues>=3.0.0    #  basics: only has Clr codes
-VividHues>=4.1.0    #  new: abbreviations & "Magic Functions"
-VividHues>=5.2.0    #  Magic Function: Clr.pattern()
-VividHues>=5.3.0    #  all Magic Functions no longer leak color
-VividHues>=5.4.0    #  Clr.delPrevLine()
-```
+> ###### Changelog :newspaper:
+> ```py
+> VividHues>=3.0.0    #  basics: only has Clr codes
+> VividHues>=4.1.0    #  new: abbreviations & "Magic Functions"
+> VividHues>=5.2.0    #  Magic Function: Clr.pattern()
+> VividHues>=5.3.0    #  all Magic Functions no longer leak color
+> VividHues>=5.4.0    #  Clr.delPrevLine()
+> ```
 
-#### _`.github/Dependabot.yml`_ (optional, but needs `requirements.txt`)
+#### _`.github/Dependabot.yml`_ &nbsp;&nbsp; _(optional, but needs `requirements.txt`)_
 ###### First, if you don't already have a `.github` directory, create one.
 ###### Then, add a `Dependabot.yml` file to it.
 ```yaml
@@ -110,7 +110,7 @@ updates:
       interval: "daily"
 ```
 
-#### _`Dockerfile`_ :whale: (optional)
+#### _`Dockerfile`_ :whale: &nbsp;&nbsp; _(optional)_
 ###### You can use this if you have a Docker container.
 ```dockerfile
 # recommended
