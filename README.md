@@ -38,8 +38,7 @@
 #### :page_with_curl: Instant Installer &nbsp; — &nbsp; Instructions
 
 ##### **Once you've downloaded `install_vividhues.sh`...**
-###### Run the command `bash install_vividhues.sh` in your shell/CLI
-###### (Or... double click the `install_vividhues.sh` file)
+###### Run the command `bash install_vividhues.sh` in your shell/CLI. (Or... double click the `install_vividhues.sh` file)
 
 > :memo: **Note!**
 > 
@@ -49,7 +48,7 @@
 #### :cyclone: Replit Installation
 
 <details>
-<summary>👉 <i><b>Replit installation instructions in here!</i></b> 👈</summary>
+<summary>👉 <i><b>Replit instructions in here!</i></b> 👈</summary>
 
 1. Upload the installer script to your project's file system
 <img src="https://user-images.githubusercontent.com/70860732/162637390-af2be82f-929a-4053-a5f5-ce788bf7f9c4.png" /> 
@@ -61,7 +60,7 @@
 #### :shell: Manual Shell Installation
 
 <details>
-<summary>👉 <i><b>Manual installation instructions in here!</i></b> 👈</summary>
+<summary>👉 <i><b>Manual instructions in here!</i></b> 👈</summary>
 
 ##### Pop this command in your CLI/shell/terminal to install VividHues.
 ```bash
@@ -85,21 +84,21 @@ from VividHues import Clr
 ---
 
 ## :bricks: Dependency
-#### _`requirements.txt`_ (Highly Recommended!)
+#### _`requirements.txt`_ &nbsp;&nbsp; _(Highly Recommended!)_
 ###### Append the following to your Python packages `requirements.txt`...
 ```python
 VividHues>=5.3.0
 ```
-###### Changelog:
-```py
-VividHues>=3.0.0    #  basics: only has Clr codes
-VividHues>=4.1.0    #  new: abbreviations & "Magic Functions"
-VividHues>=5.2.0    #  Magic Function: Clr.pattern()
-VividHues>=5.3.0    #  all Magic Functions no longer leak color
-VividHues>=5.4.0    #  Clr.delPrevLine()
-```
+> ###### Changelog :newspaper:
+> ```py
+> VividHues>=3.0.0    #  basics: only has Clr codes
+> VividHues>=4.1.0    #  new: abbreviations & "Magic Functions"
+> VividHues>=5.2.0    #  Magic Function: Clr.pattern()
+> VividHues>=5.3.0    #  all Magic Functions no longer leak color
+> VividHues>=5.4.0    #  Clr.delPrevLine()
+> ```
 
-#### _`.github/Dependabot.yml`_ (optional, but needs `requirements.txt`)
+#### _`.github/Dependabot.yml`_ &nbsp;&nbsp; _(optional, but needs `requirements.txt`)_
 ###### First, if you don't already have a `.github` directory, create one.
 ###### Then, add a `Dependabot.yml` file to it.
 ```yaml
@@ -111,7 +110,7 @@ updates:
       interval: "daily"
 ```
 
-#### _`Dockerfile`_ :whale: (optional)
+#### _`Dockerfile`_ :whale: &nbsp;&nbsp; _(optional)_
 ###### You can use this if you have a Docker container.
 ```dockerfile
 # recommended
@@ -297,7 +296,7 @@ An important example is checking out the current version: `VividHues.__version__
 
 #### Dunders Command
 
-You can use this command to find out all the possible dunders.
+You can use the following command to find out all the possible dunders!
 
 ```py
 VividHues.dunders()
@@ -307,7 +306,7 @@ VividHues.dunders()
 
 #### Dunder Values
 
-| dunder | what it does | expected output |
+| Dunder | What It Does | Expected Output |
 | :----: | :----------: | :-------------: |
 | `__author__`   | author          | "Kenneth Oliver ©2022" |
 | `__desc__`     | description     | "Super light Python string formatter! 🌈 📦" |
