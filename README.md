@@ -1,6 +1,6 @@
 <img src="https://user-images.githubusercontent.com/70860732/163634874-9e86d5b1-ada9-4761-baeb-5a175def5795.png" />
 <!-- <img src="https://user-images.githubusercontent.com/70860732/163634932-35a6577b-7c79-4dfd-8eb1-fbb68c7e1ff6.png" /> -->
-<h1 align="center">VividHues 🌈 📦</h1>
+<h1 align="center">🌈 VividHues 📦</h1>
 
 <p align="center">
  <img src="https://custom-icon-badges.herokuapp.com/github/workflow/status/KennyOliver/VividHues/VividHues?logo=rocket&logoColor=white&&style=for-the-badge" />
