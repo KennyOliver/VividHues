@@ -311,7 +311,7 @@ You can use the following command to find out all the possible dunders!
 VividHues.dunders()
 ```
 
-<img src="https://user-images.githubusercontent.com/70860732/162913000-6efc441c-42e7-43d7-8ffe-217c49bdc96b.png" />
+<img src="https://user-images.githubusercontent.com/70860732/163635169-d4b7cc8b-2574-4817-b683-5f58283ae96b.png" />
 
 #### Dunder Values
 
