@@ -126,7 +126,7 @@ RUN pip install VividHues
 
 ## :snake: Python Example
 
-<img src="https://user-images.githubusercontent.com/70860732/162396475-b2c511af-0ddd-4e85-8d17-b62b3d732e78.png" width="30%" align="right" />
+<img src="https://user-images.githubusercontent.com/70860732/163634046-93b393b1-2b86-49f9-aa10-78db334f0668.png" width="30%" align="right" />
 
 ```python
 print(Clr.BO + Clr.UL + Clr.rainbow('I love VividHues!'))
