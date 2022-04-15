@@ -1,29 +1,40 @@
 <img src="https://user-images.githubusercontent.com/70860732/163634874-9e86d5b1-ada9-4761-baeb-5a175def5795.png" />
 <!-- <img src="https://user-images.githubusercontent.com/70860732/163634932-35a6577b-7c79-4dfd-8eb1-fbb68c7e1ff6.png" /> -->
+<h1 align="center">VividHues 🌈 📦</h1>
 
-# VividHues :rainbow: :package:
-
-<!-- [![VividHues](https://github.com/KennyOliver/VividHues/actions/workflows/python-publish.yml/badge.svg)](https://github.com/KennyOliver/VividHues/actions/workflows/python-publish.yml) -->
-![Build Passing Status](https://custom-icon-badges.herokuapp.com/github/workflow/status/KennyOliver/VividHues/VividHues?logo=rocket&logoColor=white&&style=for-the-badge)
-![CodeFactor](https://www.codefactor.io/repository/github/KennyOliver/vividHues/badge?style=for-the-badge)
-![License](https://custom-icon-badges.herokuapp.com/github/license/KennyOliver/VividHues?logo=repo&style=for-the-badge)
-<br />
-![Latest SemVer](https://custom-icon-badges.herokuapp.com/github/v/tag/KennyOliver/VividHues?style=for-the-badge&logo=tag&logoColor=white&label=version)
-![Total Lines](https://img.shields.io/tokei/lines/github/KennyOliver/vividHues?style=for-the-badge)
-![Repo Size](https://img.shields.io/github/repo-size/KennyOliver/vividHues?style=for-the-badge)
-![Code Size](https://custom-icon-badges.herokuapp.com/github/languages/code-size/KennyOliver/VividHues?logo=file-code&logoColor=white&style=for-the-badge)
-<br />
-[![Downloads](https://static.pepy.tech/personalized-badge/vividhues?period=total&units=international_system&left_color=gray&right_color=blue&left_text=Total%20Downloads)](https://pepy.tech/project/vividhues)
-[![Downloads](https://static.pepy.tech/personalized-badge/vividhues?period=month&units=international_system&left_color=gray&right_color=blue&left_text=Past%20Month)](https://pepy.tech/project/vividhues)
-[![Downloads](https://static.pepy.tech/personalized-badge/vividhues?period=week&units=international_system&left_color=gray&right_color=blue&left_text=Past%20Week)](https://pepy.tech/project/vividhues)
-
-<a href="https://pypi.org/project/VividHues/"><img src="https://img.shields.io/badge/PyPi-3775A9?style=for-the-badge&logo=python&logoColor=white&labelColor=303030" /></a>
-<a href="https://test.pypi.org/project/VividHues/"><img src="https://img.shields.io/badge/Test%20PyPi-E8C541?style=for-the-badge&logo=python&logoColor=white&labelColor=303030" /></a>
-
-
-**<big>VividHues:</big> &nbsp;&nbsp;&nbsp; Super light Python string formatter! &nbsp; 🌈 📦**
-
-<big>&nbsp; :point_right: &nbsp; </big><kbd><a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/install_vividhues.sh" download><img src="https://custom-icon-badges.herokuapp.com/badge/-Instant%20Installer-FFD700?style=for-the-badge&logo=zap&logoColor=FFD700&labelColor=303030" /></a></kbd><big> &nbsp; :point_left:</big>
+<p align="center">
+ <img src="https://custom-icon-badges.herokuapp.com/github/workflow/status/KennyOliver/VividHues/VividHues?logo=rocket&logoColor=white&&style=for-the-badge" />
+ <img src="https://www.codefactor.io/repository/github/KennyOliver/vividHues/badge?style=for-the-badge" />
+ <img src="https://custom-icon-badges.herokuapp.com/github/license/KennyOliver/VividHues?logo=repo&style=for-the-badge" />
+ <br />
+ <img src="https://custom-icon-badges.herokuapp.com/github/v/tag/KennyOliver/VividHues?style=for-the-badge&logo=tag&logoColor=white&label=version" />
+ <img src="https://img.shields.io/tokei/lines/github/KennyOliver/vividHues?style=for-the-badge" />
+ <img src="https://img.shields.io/github/repo-size/KennyOliver/vividHues?style=for-the-badge" />
+ <img src="https://custom-icon-badges.herokuapp.com/github/languages/code-size/KennyOliver/VividHues?logo=file-code&logoColor=white&style=for-the-badge" />
+ <br />
+ <a href="https://pepy.tech/project/VividHues">
+  <img src="https://static.pepy.tech/personalized-badge/vividhues?period=total&units=international_system&left_color=gray&right_color=blue&left_text=Total%20Downloads" />
+  <img src="https://static.pepy.tech/personalized-badge/vividhues?period=month&units=international_system&left_color=gray&right_color=blue&left_text=Past%20Month" />
+  <img src="https://static.pepy.tech/personalized-badge/vividhues?period=week&units=international_system&left_color=gray&right_color=blue&left_text=Past%20Week" />
+ </a>
+ <br /><br />
+ <a href="https://pypi.org/project/VividHues/">
+  <img src="https://img.shields.io/badge/PyPi-3775A9?style=for-the-badge&logo=python&logoColor=white&labelColor=303030" />
+ </a>
+ <a href="https://test.pypi.org/project/VividHues/">
+  <img src="https://img.shields.io/badge/Test%20PyPi-E8C541?style=for-the-badge&logo=python&logoColor=white&labelColor=303030" />
+ </a>
+ <br /><br />
+ <b><big>VividHues:</big> &nbsp;&nbsp;&nbsp; Super light Python string formatter! &nbsp; 🌈 📦</b>
+ <br /><br />
+ <span align="center">
+  <kbd>
+  <a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/install_vividhues.sh" download>
+   <img src="https://custom-icon-badges.herokuapp.com/badge/-Instant%20Installer-FFD700?style=for-the-badge&logo=zap&logoColor=FFD700&labelColor=303030" />
+   </a>
+  </kbd>
+ </span>
+</p>
 
 ---
 
