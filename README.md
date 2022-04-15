@@ -28,11 +28,13 @@
  <b><big>VividHues:</big> &nbsp;&nbsp;&nbsp; Super light Python string formatter! &nbsp; 🌈 📦</b>
  <br /><br />
  <span align="center">
+  👉
   <kbd>
-  <a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/install_vividhues.sh" download>
-   <img src="https://custom-icon-badges.herokuapp.com/badge/-Instant%20Installer-FFD700?style=for-the-badge&logo=zap&logoColor=FFD700&labelColor=303030" />
+   <a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/install_vividhues.sh" download>
+    <img src="https://custom-icon-badges.herokuapp.com/badge/-Instant%20Installer-FFD700?style=for-the-badge&logo=zap&logoColor=FFD700&labelColor=303030" />
    </a>
   </kbd>
+  👈
  </span>
 </p>
 
