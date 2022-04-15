@@ -1,7 +1,7 @@
-# VividHues :rainbow: :package:
+<img src="https://user-images.githubusercontent.com/70860732/163634874-9e86d5b1-ada9-4761-baeb-5a175def5795.png" />
+<!-- <img src="https://user-images.githubusercontent.com/70860732/163634932-35a6577b-7c79-4dfd-8eb1-fbb68c7e1ff6.png" /> -->
 
-<!-- <img src="https://user-images.githubusercontent.com/70860732/162698403-39fc7fce-476d-49df-a868-9be277917cc1.png" /> -->
-<img src="https://user-images.githubusercontent.com/70860732/162701615-714ee886-3541-4899-b96c-c34122b16693.png" />
+# VividHues :rainbow: :package:
 
 <!-- [![VividHues](https://github.com/KennyOliver/VividHues/actions/workflows/python-publish.yml/badge.svg)](https://github.com/KennyOliver/VividHues/actions/workflows/python-publish.yml) -->
 ![Build Passing Status](https://custom-icon-badges.herokuapp.com/github/workflow/status/KennyOliver/VividHues/VividHues?logo=rocket&logoColor=white&&style=for-the-badge)
@@ -31,7 +31,7 @@
 
 ### :zap: _Instant Installer + Updater_
 
-<img src="https://user-images.githubusercontent.com/70860732/162640075-30ac2c3f-19f5-432e-816b-cf281c9636f8.png" width="70%" />
+<img src="https://user-images.githubusercontent.com/70860732/163634599-31351517-3333-43f5-b2c2-87408522aefe.png" width="70%" />
 
 <big>&nbsp; :point_right: &nbsp; </big><kbd><a href="https://gitcdn.link/cdn/KennyOliver/VividHues/main/install_vividhues.sh" download><img src="https://custom-icon-badges.herokuapp.com/badge/-Instant%20Installer-FFD700?style=for-the-badge&logo=zap&logoColor=FFD700&labelColor=303030" /></a></kbd><big> &nbsp; :point_left:</big>
 
@@ -126,7 +126,7 @@ RUN pip install VividHues
 
 ## :snake: Python Example
 
-<img src="https://user-images.githubusercontent.com/70860732/163634046-93b393b1-2b86-49f9-aa10-78db334f0668.png" width="30%" align="right" />
+<img src="https://user-images.githubusercontent.com/70860732/163634451-66f6b96b-7e64-4a29-8883-55f23d72206a.png" width="30%" align="right" />
 
 ```python
 print(Clr.BO + Clr.UL + Clr.rainbow('I love VividHues!'))
@@ -234,6 +234,8 @@ Clr.delPrevLine(5)
 > ```
 > ###### Paints your string in a random Clr code.
 
+<br />
+
 #### :saxophone: Clr.jazzy()
 
 <img src="https://user-images.githubusercontent.com/70860732/162393890-7af20eae-501e-4a2c-aeef-9cdabb01f759.png" width="40%" align="right" />
@@ -242,6 +244,8 @@ Clr.delPrevLine(5)
 > print(  Clr.jazzy(string)  )
 > ```
 > ###### Paints each letter in jazzy random colors! It's a total gamble, that's guaranteed to be ugly! :)
+
+<br />
 
 #### :rainbow: Clr.rainbow()
 
@@ -253,6 +257,8 @@ Clr.delPrevLine(5)
 > 
 > ###### Paints your string in a rainbow pattern.
 
+<br />
+
 #### :test_tube: Clr.pattern()
 
 <img src="https://user-images.githubusercontent.com/70860732/162422427-ef00dc83-7b08-4c72-9677-c4ea3b019ff2.png" width="40%" align="right" />
@@ -261,6 +267,9 @@ Clr.delPrevLine(5)
 > print(  Clr.pattern(string, *color)  )
 > ```
 > ###### Paint your letters in a repeating pattern, by specifying an unlimited amount of Clr codes!
+
+<br />
+<br /><br />
 
 ---
 
