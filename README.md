@@ -1,8 +1,12 @@
-<img src="https://user-images.githubusercontent.com/70860732/163634874-9e86d5b1-ada9-4761-baeb-5a175def5795.png" />
+<p align="center">
+ <img src="https://user-images.githubusercontent.com/70860732/163634874-9e86d5b1-ada9-4761-baeb-5a175def5795.png" width="75%" />
+</>
 <!-- <img src="https://user-images.githubusercontent.com/70860732/163634932-35a6577b-7c79-4dfd-8eb1-fbb68c7e1ff6.png" /> -->
 <h1 align="center">🌈 VividHues 📦</h1>
 
 <p align="center">
+ <b>Super light Python string formatter!</b>
+ <br /><br />
  <img src="https://custom-icon-badges.herokuapp.com/github/workflow/status/KennyOliver/VividHues/VividHues?logo=rocket&logoColor=white&&style=for-the-badge" />
  <img src="https://www.codefactor.io/repository/github/KennyOliver/vividHues/badge?style=for-the-badge" />
  <img src="https://custom-icon-badges.herokuapp.com/github/license/KennyOliver/VividHues?logo=repo&style=for-the-badge" />
@@ -24,8 +28,6 @@
  <a href="https://test.pypi.org/project/VividHues/">
   <img src="https://img.shields.io/badge/Test%20PyPi-E8C541?style=for-the-badge&logo=python&logoColor=white&labelColor=303030" />
  </a>
- <br /><br />
- <b><big>VividHues:</big> &nbsp;&nbsp;&nbsp; Super light Python string formatter! &nbsp; 🌈 📦</b>
  <br /><br />
  <span align="center">
   👉
