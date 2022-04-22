@@ -340,4 +340,10 @@ VividHues.dunders()
 | `__version__`  | current version | (whatever the current version is!) |
 
 ---
+## :raised_hands: Wanna contribute?
+
+#### Contribute here :point_right: [Click me!](docs/CONTRIBUTING.md)
+#### :warning: Make sure that you read the Code of Conduct :point_right: [Click me!](docs/CODE_OF_CONDUCT.md)
+
+---
 Kenny Oliver ©2022
