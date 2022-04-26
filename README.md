@@ -102,7 +102,7 @@ from VividHues import Clr
 #### _`requirements.txt`_ &nbsp;&nbsp; _(Highly Recommended!)_
 ###### Append the following to your Python packages `requirements.txt`...
 ```python
-VividHues>=5.3.0
+VividHues
 ```
 > ###### Changelog :newspaper:
 > ```py
