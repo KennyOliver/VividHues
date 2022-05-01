@@ -19,7 +19,7 @@
  <a href="https://pepy.tech/project/VividHues">
   <img src="https://static.pepy.tech/personalized-badge/vividhues?period=total&units=international_system&left_color=gray&right_color=blue&left_text=Total%20Downloads" />
   <img src="https://static.pepy.tech/personalized-badge/vividhues?period=month&units=international_system&left_color=gray&right_color=blue&left_text=Past%20Month" />
-  <img src="https://static.pepy.tech/personalized-badge/vividhues?period=week&units=international_system&left_color=gray&right_color=blue&left_text=Past%20Week" />
+  <img src="https://static.pepy.tech/personalized-badge/vividhues?period=week&units=none&left_color=gray&right_color=blue&left_text=Past%20Week" />
  </a>
  <br /><br />
  <a href="https://pypi.org/project/VividHues/">
