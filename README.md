@@ -299,7 +299,8 @@ Clr.delPrevLine(5)
 | Auto-Reset              | :star:            | :star:     | :star:     |
 | Cursor Positioning      |                   | :star:     |            |
 | Special/Unique Features | :star:            |            | :star:     |
-| <b>Total</b>            | <b>6/8</b>        | <b>5/8</b> | <b>6/8</b> |
+| Dependencies            | :star:            |            |            |
+| <b>Total</b>            | <b>7/9</b>        | <b>6/9</b> | <b>6/9</b> |
 
 Potentially, VividHues will have more features than the alternatives if they are implemented.
 
@@ -326,7 +327,7 @@ You can use the following command to find out all the possible dunders!
 VividHues.dunders()
 ```
 
-<img src="https://user-images.githubusercontent.com/70860732/163635169-d4b7cc8b-2574-4817-b683-5f58283ae96b.png" />
+<img src="https://user-images.githubusercontent.com/70860732/168440207-bbfd0297-3132-43de-8139-5db03fd47359.png" />
 
 #### Dunder Values
 
