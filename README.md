@@ -289,7 +289,7 @@ Clr.delPrevLine(5)
 ---
 
 ## :muscle: How VividHues stacks up...
-| Feature | [VividHues](https://pypi.org/project/VividHues/) | [Colorama](https://pypi.org/project/colorama/) | [termcolor](https://pypi.org/project/termcolor/) |
+| Feature | [VividHues](https://pypi.org/project/VividHues/) | [colorama](https://pypi.org/project/colorama/) | [termcolor](https://pypi.org/project/termcolor/) |
 | :---------------------: | :---------------: | :--------: | :--------: |
 | Simplicity/Abstraction  | :star:            | :star:     | :star:     |
 | Font Colors             | :star:            | :star:     | :star:     |
