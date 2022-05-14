@@ -340,7 +340,7 @@ VividHues.dunders()
 | `__pypi__`     | Pypi URL        | "https://pypi.org/project/VividHues/" |
 | `__version__`  | current version | (whatever the current version is!) |
 
-> For example, using `print(VividHues.__version__)` will display the current version.
+###### For example, using `print(VividHues.__version__)` will display the current version.
 
 ---
 ## :raised_hands: Wanna contribute?
