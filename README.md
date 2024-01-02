@@ -349,4 +349,5 @@ VividHues.dunders()
 #### :warning: Make sure that you read the Code of Conduct :point_right: [Click me!](docs/CODE_OF_CONDUCT.md)
 
 ---
+
 Kenny Oliver ©2024
