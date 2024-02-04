@@ -36,7 +36,7 @@ __desc__      = "Super lite package for colored strings in Python! 🌈 📦"
 __homepage__  = "https://github.com/KennyOliver/VividHues"
 __package__   = "VividHues"
 __pypi__      = "https://pypi.org/project/VividHues/"
-__version__   = "5.9.2"
+__version__   = "5.10.2"
 
 
 class Clr:
