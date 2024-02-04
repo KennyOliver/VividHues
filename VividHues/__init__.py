@@ -51,7 +51,7 @@ class Clr:
     LIME   = "\033[92m"
     YELLOW = "\033[93m"
     PINK   = "\033[95m"
-    
+
     UNDERLINE = "\033[4m"
     UL        = UNDERLINE
     BOLD = "\033[01m"
@@ -59,11 +59,49 @@ class Clr:
     RESET = "\033[0m"
     RS    = RESET
 
-    
+    MIRROR_DICT = {
+        "a": "ɐ",
+        "b": "q",
+        "c": "ɔ",
+        "d": "p",
+        "e": "ǝ",
+        "f": "ɟ",
+        "g": "ƃ",
+        "h": "ɥ",
+        "i": "ᴉ",
+        "j": "ɾ",
+        "k": "ʞ",
+        "l": "l",
+        "m": "ɯ",
+        "n": "u",
+        "o": "o",
+        "p": "d",
+        "q": "b",
+        "r": "ɹ",
+        "s": "s",
+        "t": "ʇ",
+        "u": "n",
+        "v": "ʌ",
+        "w": "ʍ",
+        "x": "x",
+        "y": "ʎ",
+        "z": "z",
+        "0": "0",
+        "1": "Ɩ",
+        "2": "ᄅ",
+        "3": "Ɛ",
+        "4": "ㄣ",
+        "5": "ϛ",
+        "6": "9",
+        "7": "ㄥ",
+        "8": "8",
+        "9": "6",
+    }
+
     @classmethod
     def random_color(cls) -> str:
         """ returns a random Clr code """
-        
+
         colors = []  # List of all the colors in the class Clr
         for key in Clr.__dict__.keys():
             if key == "UNDERLINE":  # Once we got to UNDERLINE, there is no more color
@@ -77,14 +115,14 @@ class Clr:
     @classmethod
     def random(cls, string_to_color: str) -> str:
         """ chooses a random Clr code """
-      
+
         return f'{Clr.random_color()}' + string_to_color + Clr.RS
 
 
     @classmethod
     def jazzy(cls, string_to_color: str) -> str:
         """ gives each letter a random color """
-      
+
         jazzy_str = ""
 
         for letter in string_to_color:
@@ -96,7 +134,7 @@ class Clr:
     @classmethod
     def rainbow(cls, string_to_color: str) -> str:
         """ colors each letter in a rainbow pattern """
-      
+
         rainbow_colors = [Clr.RED, Clr.ORANGE, Clr.YELLOW, Clr.GREEN, Clr.LIME, Clr.CYAN, Clr.BLUE, Clr.PURPLE, Clr.PINK]
 
         rainbow_str = ""
@@ -109,9 +147,10 @@ class Clr:
             colors_index += 1
             if colors_index == 9:
                 colors_index = 0
-        
+
         return rainbow_str + Clr.RS
-    
+
+
     @classmethod
     def pattern(cls, string_to_color: str, *chosen_clrs) -> str:
         """ allow custom definitions of Clr patterns """
@@ -122,7 +161,7 @@ class Clr:
               + f"Expected some Clr codes, but was povided {len(chosen_clrs)}!"
               + Clr.RS
             )
-      
+
         pattern_str = ""
         string_index = 0
         colors_index = 0
@@ -133,10 +172,31 @@ class Clr:
             string_index += 1
             if colors_index == len(chosen_clrs):
               colors_index = 0
-        
+
         return pattern_str + Clr.RS
 
-    
+
+    @classmethod
+    def mirror(cls, string_to_color: str) -> str:
+        """ flip all letters upside down """
+
+        mirror_str = ""
+
+        for letter in string_to_color:
+            mirror_str += Clr.MIRROR_DICT[letter]
+
+        return mirror_str
+
+
+    @classmethod
+    def reverse(cls, string_to_color: str) -> str:
+        """ flip and reverse all letters upside down """
+
+        reverse_str = Clr.mirror(string_to_color)[::-1]
+
+        return reverse_str
+
+
     def delPrevLine(repeat: int = 1) -> None:
         ''' erases the previous line in the CLI '''
 
@@ -148,7 +208,7 @@ class Clr:
             )
 
         import sys
-        
+
         CURSOR_UP_ONE = '\x1b[1A' 
         ERASE_LINE    = '\x1b[2K'
         for _ in range(int(repeat)):
