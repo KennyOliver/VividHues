@@ -284,6 +284,28 @@ Clr.delPrevLine(5)
 > ###### Paint your letters in a repeating pattern, by specifying an unlimited amount of Clr codes!
 
 <br />
+
+#### :mirror: Clr.mirror()
+
+<img src="https://github.com/nonepork/VividHues/assets/59335048/04119e77-cf52-4c3c-86d5-c9d5922bc28e" width="40%" align="right" />
+
+> ```python
+> print(  Clr.mirror(string)  )
+> ```
+> ###### Upside down your string.
+
+<br />
+
+#### 🔄 Clr.reverse()
+
+<img src="https://github.com/nonepork/VividHues/assets/59335048/a80c8f20-9e53-42a5-baed-fef1c6583913" width="40%" align="right" />
+
+> ```python
+> print(  Clr.reverse(string)  )
+> ```
+> ###### Flip and upside down your string.
+
+<br />
 <br /><br />
 
 ---
