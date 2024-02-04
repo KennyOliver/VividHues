@@ -285,9 +285,9 @@ Clr.delPrevLine(5)
 
 <br />
 
-<img src="todo"/>
+![Mirror](https://github.com/nonepork/VividHues/assets/59335048/04119e77-cf52-4c3c-86d5-c9d5922bc28e)
 
-#### :todo: Clr.mirror()
+#### :mirror: Clr.mirror()
 
 > ```python
 > print(  Clr.mirror(string)  )
@@ -296,9 +296,9 @@ Clr.delPrevLine(5)
 
 <br />
 
-<img src="todo"/>
+![Reverse](https://github.com/nonepork/VividHues/assets/59335048/a80c8f20-9e53-42a5-baed-fef1c6583913)
 
-#### :todo: Clr.reverse()
+#### 🔄 Clr.reverse()
 
 > ```python
 > print(  Clr.reverse(string)  )
