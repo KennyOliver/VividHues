@@ -285,7 +285,7 @@ Clr.delPrevLine(5)
 
 <br />
 
-![Mirror](https://github.com/nonepork/VividHues/assets/59335048/04119e77-cf52-4c3c-86d5-c9d5922bc28e)
+<img src="https://github.com/nonepork/VividHues/assets/59335048/04119e77-cf52-4c3c-86d5-c9d5922bc28e" width="40%" align="right" />
 
 #### :mirror: Clr.mirror()
 
@@ -296,7 +296,7 @@ Clr.delPrevLine(5)
 
 <br />
 
-![Reverse](https://github.com/nonepork/VividHues/assets/59335048/a80c8f20-9e53-42a5-baed-fef1c6583913)
+<img src="https://github.com/nonepork/VividHues/assets/59335048/a80c8f20-9e53-42a5-baed-fef1c6583913" width="40%" align="right" />
 
 #### 🔄 Clr.reverse()
 
