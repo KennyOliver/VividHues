@@ -60,6 +60,32 @@ class Clr:
     RS    = RESET
 
     MIRROR_DICT = {
+        "A": "Ɐ",
+        "B": "B",
+        "C": "C",
+        "D": "D",
+        "E": "E",
+        "F": "ᖶ",
+        "G": "ᘓ",
+        "H": "H",
+        "I": "I",
+        "J": "ᒉ",
+        "K": "K",
+        "L": "Γ",
+        "M": "W",
+        "N": "И",
+        "O": "O",
+        "P": "b",
+        "Q": "⥀",
+        "R": "ᖉ",
+        "S": "Ƨ",
+        "T": "ꓕ",
+        "U": "ꓵ",
+        "V": "Λ",
+        "W": "M",
+        "X": "X",
+        "Y": "⅄",
+        "Z": "Z",
         "a": "ɐ",
         "b": "q",
         "c": "ɔ",
@@ -183,7 +209,10 @@ class Clr:
         mirror_str = ""
 
         for letter in string_to_color:
-            mirror_str += Clr.MIRROR_DICT[letter]
+            try:
+                mirror_str += Clr.MIRROR_DICT[letter]
+            except KeyError:
+                mirror_str += letter
 
         return mirror_str
 
